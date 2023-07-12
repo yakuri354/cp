@@ -1,0 +1,6 @@
+FAN
+ICE
+GET
+
+AA
+AB

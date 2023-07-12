@@ -1,0 +1,807 @@
+2023-01-19 17:31:53 [INFO] ...are/nvim/site/pack/packer/start/nvim-gdb/lua/nvimgdb.lua:23: 	"New session gdb"
+2023-01-19 17:31:53 [DEBUG] ...nvim/site/pack/packer/start/nvim-gdb/lua/nvimgdb/app.lua:26: 	{ "function App.new(", "gdb", "gdb_wrap.sh", "gdb -q a.out", ")" }
+2023-01-19 17:31:53 [DEBUG] ...m/site/pack/packer/start/nvim-gdb/lua/nvimgdb/config.lua:94: 	{ "function Config.new()" }
+2023-01-19 17:31:53 [DEBUG] ...m/site/pack/packer/start/nvim-gdb/lua/nvimgdb/config.lua:153: 	{ "function Config:_check_keymap_conflicts(", "<f4>", "key_until", {}, true, ")" }
+2023-01-19 17:31:53 [DEBUG] ...m/site/pack/packer/start/nvim-gdb/lua/nvimgdb/config.lua:153: 	{ "function Config:_check_keymap_conflicts(", <function 1>, "unset_keymaps", {    ["<f4>"] = "key_until"  }, true, ")" }
+2023-01-19 17:31:53 [DEBUG] ...m/site/pack/packer/start/nvim-gdb/lua/nvimgdb/config.lua:153: 	{ "function Config:_check_keymap_conflicts(", <function 1>, "set_keymaps", {    ["<f4>"] = "key_until"  }, true, ")" }
+2023-01-19 17:31:53 [DEBUG] ...m/site/pack/packer/start/nvim-gdb/lua/nvimgdb/config.lua:153: 	{ "function Config:_check_keymap_conflicts(", { "●", "●²", "●³", "●⁴", "●⁵", "●⁶", "●⁷", "●⁸", "●⁹", "●ⁿ" }, "sign_breakpoint", {    ["<f4>"] = "key_until"  }, true, ")" }
+2023-01-19 17:31:53 [DEBUG] ...m/site/pack/packer/start/nvim-gdb/lua/nvimgdb/config.lua:153: 	{ "function Config:_check_keymap_conflicts(", "belowright new", "termwin_command", {    ["<f4>"] = "key_until"  }, true, ")" }
+2023-01-19 17:31:53 [DEBUG] ...m/site/pack/packer/start/nvim-gdb/lua/nvimgdb/config.lua:153: 	{ "function Config:_check_keymap_conflicts(", "new", "codewin_command", {    ["<f4>"] = "key_until"  }, true, ")" }
+2023-01-19 17:31:53 [DEBUG] ...m/site/pack/packer/start/nvim-gdb/lua/nvimgdb/config.lua:153: 	{ "function Config:_check_keymap_conflicts(", 5, "set_scroll_off", {    ["<f4>"] = "key_until"  }, true, ")" }
+2023-01-19 17:31:53 [DEBUG] ...m/site/pack/packer/start/nvim-gdb/lua/nvimgdb/config.lua:153: 	{ "function Config:_check_keymap_conflicts(", "<f9>", "key_eval", {    ["<f4>"] = "key_until"  }, true, ")" }
+2023-01-19 17:31:53 [DEBUG] ...m/site/pack/packer/start/nvim-gdb/lua/nvimgdb/config.lua:153: 	{ "function Config:_check_keymap_conflicts(", "<c-n>", "key_framedown", {    ["<f4>"] = "key_until",    ["<f9>"] = "key_eval"  }, true, ")" }
+2023-01-19 17:31:53 [DEBUG] ...m/site/pack/packer/start/nvim-gdb/lua/nvimgdb/config.lua:153: 	{ "function Config:_check_keymap_conflicts(", "<c-p>", "key_frameup", {    ["<c-n>"] = "key_framedown",    ["<f4>"] = "key_until",    ["<f9>"] = "key_eval"  }, true, ")" }
+2023-01-19 17:31:53 [DEBUG] ...m/site/pack/packer/start/nvim-gdb/lua/nvimgdb/config.lua:153: 	{ "function Config:_check_keymap_conflicts(", "<f8>", "key_breakpoint", {    ["<c-n>"] = "key_framedown",    ["<c-p>"] = "key_frameup",    ["<f4>"] = "key_until",    ["<f9>"] = "key_eval"  }, true, ")" }
+2023-01-19 17:31:53 [DEBUG] ...m/site/pack/packer/start/nvim-gdb/lua/nvimgdb/config.lua:153: 	{ "function Config:_check_keymap_conflicts(", true, "sticky_dbg_buf", {    ["<c-n>"] = "key_framedown",    ["<c-p>"] = "key_frameup",    ["<f4>"] = "key_until",    ["<f8>"] = "key_breakpoint",    ["<f9>"] = "key_eval"  }, true, ")" }
+2023-01-19 17:31:53 [DEBUG] ...m/site/pack/packer/start/nvim-gdb/lua/nvimgdb/config.lua:153: 	{ "function Config:_check_keymap_conflicts(", true, "jump_bottom_gdb_buf", {    ["<c-n>"] = "key_framedown",    ["<c-p>"] = "key_frameup",    ["<f4>"] = "key_until",    ["<f8>"] = "key_breakpoint",    ["<f9>"] = "key_eval"  }, true, ")" }
+2023-01-19 17:31:53 [DEBUG] ...m/site/pack/packer/start/nvim-gdb/lua/nvimgdb/config.lua:153: 	{ "function Config:_check_keymap_conflicts(", "<f12>", "key_finish", {    ["<c-n>"] = "key_framedown",    ["<c-p>"] = "key_frameup",    ["<f4>"] = "key_until",    ["<f8>"] = "key_breakpoint",    ["<f9>"] = "key_eval"  }, true, ")" }
+2023-01-19 17:31:53 [DEBUG] ...m/site/pack/packer/start/nvim-gdb/lua/nvimgdb/config.lua:153: 	{ "function Config:_check_keymap_conflicts(", "<f11>", "key_step", {    ["<c-n>"] = "key_framedown",    ["<c-p>"] = "key_frameup",    ["<f12>"] = "key_finish",    ["<f4>"] = "key_until",    ["<f8>"] = "key_breakpoint",    ["<f9>"] = "key_eval"  }, true, ")" }
+2023-01-19 17:31:53 [DEBUG] ...m/site/pack/packer/start/nvim-gdb/lua/nvimgdb/config.lua:153: 	{ "function Config:_check_keymap_conflicts(", <function 1>, "set_tkeymaps", {    ["<c-n>"] = "key_framedown",    ["<c-p>"] = "key_frameup",    ["<f11>"] = "key_step",    ["<f12>"] = "key_finish",    ["<f4>"] = "key_until",    ["<f8>"] = "key_breakpoint",    ["<f9>"] = "key_eval"  }, true, ")" }
+2023-01-19 17:31:53 [DEBUG] ...m/site/pack/packer/start/nvim-gdb/lua/nvimgdb/config.lua:153: 	{ "function Config:_check_keymap_conflicts(", "<f10>", "key_next", {    ["<c-n>"] = "key_framedown",    ["<c-p>"] = "key_frameup",    ["<f11>"] = "key_step",    ["<f12>"] = "key_finish",    ["<f4>"] = "key_until",    ["<f8>"] = "key_breakpoint",    ["<f9>"] = "key_eval"  }, true, ")" }
+2023-01-19 17:31:53 [DEBUG] ...m/site/pack/packer/start/nvim-gdb/lua/nvimgdb/config.lua:153: 	{ "function Config:_check_keymap_conflicts(", 10, "sign_breakpoint_priority", {    ["<c-n>"] = "key_framedown",    ["<c-p>"] = "key_frameup",    ["<f10>"] = "key_next",    ["<f11>"] = "key_step",    ["<f12>"] = "key_finish",    ["<f4>"] = "key_until",    ["<f8>"] = "key_breakpoint",    ["<f9>"] = "key_eval"  }, true, ")" }
+2023-01-19 17:31:53 [DEBUG] ...m/site/pack/packer/start/nvim-gdb/lua/nvimgdb/config.lua:153: 	{ "function Config:_check_keymap_conflicts(", "<f5>", "key_continue", {    ["<c-n>"] = "key_framedown",    ["<c-p>"] = "key_frameup",    ["<f10>"] = "key_next",    ["<f11>"] = "key_step",    ["<f12>"] = "key_finish",    ["<f4>"] = "key_until",    ["<f8>"] = "key_breakpoint",    ["<f9>"] = "key_eval"  }, true, ")" }
+2023-01-19 17:31:53 [DEBUG] ...m/site/pack/packer/start/nvim-gdb/lua/nvimgdb/config.lua:153: 	{ "function Config:_check_keymap_conflicts(", "▶", "sign_current_line", {    ["<c-n>"] = "key_framedown",    ["<c-p>"] = "key_frameup",    ["<f10>"] = "key_next",    ["<f11>"] = "key_step",    ["<f12>"] = "key_finish",    ["<f4>"] = "key_until",    ["<f5>"] = "key_continue",    ["<f8>"] = "key_breakpoint",    ["<f9>"] = "key_eval"  }, true, ")" }
+2023-01-19 17:31:53 [DEBUG] ...m/site/pack/packer/start/nvim-gdb/lua/nvimgdb/config.lua:120: 	{ "function Config:_apply_overrides(", {    ["<c-n>"] = "key_framedown",    ["<c-p>"] = "key_frameup",    ["<f10>"] = "key_next",    ["<f11>"] = "key_step",    ["<f12>"] = "key_finish",    ["<f4>"] = "key_until",    ["<f5>"] = "key_continue",    ["<f8>"] = "key_breakpoint",    ["<f9>"] = "key_eval"  }, ")" }
+2023-01-19 17:31:53 [DEBUG] ...m/site/pack/packer/start/nvim-gdb/lua/nvimgdb/config.lua:170: 	{ "function Config:_define_signs()" }
+2023-01-19 17:31:53 [DEBUG] ...m/site/pack/packer/start/nvim-gdb/lua/nvimgdb/client.lua:32: 	{ "function Client.new(", {    config = {      codewin_command = "new",      jump_bottom_gdb_buf = true,      key_breakpoint = "<f8>",      key_continue = "<f5>",      key_eval = "<f9>",      key_finish = "<f12>",      key_framedown = "<c-n>",      key_frameup = "<c-p>",      key_next = "<f10>",      key_step = "<f11>",      key_until = "<f4>",      set_keymaps = <function 1>,      set_scroll_off = 5,      set_tkeymaps = <function 2>,      sign_breakpoint = { "●", "●²", "●³", "●⁴", "●⁵", "●⁶", "●⁷", "●⁸", "●⁹", "●ⁿ" },      sign_breakpoint_priority = 10,      sign_current_line = "▶",      sticky_dbg_buf = true,      termwin_command = "belowright new",      unset_keymaps = <function 3>    },    <metatable> = <1>{      __index = <table 1>,      _apply_overrides = <function 4>,      _check_keymap_conflicts = <function 5>,      _define_signs = <function 6>,      get = <function 7>,      get_or = <function 8>,      new = <function 9>    }  }, "gdb_wrap.sh", "gdb -q a.out", ")" }
+2023-01-19 17:31:53 [DEBUG] ...m/site/pack/packer/start/nvim-gdb/lua/nvimgdb/config.lua:183: 	{ "function Config:get(", "termwin_command", ")" }
+2023-01-19 17:31:53 [INFO] ...m/site/pack/packer/start/nvim-gdb/lua/nvimgdb/client.lua:35: 	"termwin_command"	"belowright new"
+2023-01-19 17:31:53 [DEBUG] ...m/site/pack/packer/start/nvim-gdb/lua/nvimgdb/config.lua:183: 	{ "function Config:get(", "termwin_command", ")" }
+2023-01-19 17:31:53 [DEBUG] ...im/site/pack/packer/start/nvim-gdb/lua/nvimgdb/proxy.lua:19: 	{ "function Proxy.new(", {    buf_hidden_auid = -1,    client_buf = 20,    command = "/home/lain/.local/share/nvim/site/pack/packer/start/nvim-gdb/lib/gdb_wrap.sh -a /tmp/nvimgdb-sock-84NrVp/port -- gdb -q a.out",    config = {      config = {        codewin_command = "new",        jump_bottom_gdb_buf = true,        key_breakpoint = "<f8>",        key_continue = "<f5>",        key_eval = "<f9>",        key_finish = "<f12>",        key_framedown = "<c-n>",        key_frameup = "<c-p>",        key_next = "<f10>",        key_step = "<f11>",        key_until = "<f4>",        set_keymaps = <function 1>,        set_scroll_off = 5,        set_tkeymaps = <function 2>,        sign_breakpoint = { "●", "●²", "●³", "●⁴", "●⁵", "●⁶", "●⁷", "●⁸", "●⁹", "●ⁿ" },        sign_breakpoint_priority = 10,        sign_current_line = "▶",        sticky_dbg_buf = true,        termwin_command = "belowright new",        unset_keymaps = <function 3>      },      <metatable> = <1>{        __index = <table 1>,        _apply_overrides = <function 4>,        _check_keymap_conflicts = <function 5>,        _define_signs = <function 6>,        get = <function 7>,        get_or = <function 8>,        new = <function 9>      }    },    has_interacted = false,    is_active = false,    proxy_addr = "/tmp/nvimgdb-sock-84NrVp/port",    sock_dir = "/tmp/nvimgdb-sock-84NrVp",    win = 1051,    <metatable> = <2>{      __index = <table 2>,      _check_sticky = <function 10>,      _cleanup_buf_hidden = <function 11>,      cleanup = <function 12>,      get_buf = <function 13>,      get_proxy_addr = <function 14>,      interrupt = <function 15>,      mark_has_interacted = <function 16>,      new = <function 17>,      send_line = <function 18>,      start = <function 19>    }  }, ")" }
+2023-01-19 17:31:53 [DEBUG] ...m/site/pack/packer/start/nvim-gdb/lua/nvimgdb/client.lua:168: 	{ "function Client:get_proxy_addr()" }
+2023-01-19 17:31:53 [DEBUG] ...te/pack/packer/start/nvim-gdb/lua/nvimgdb/breakpoint.lua:21: 	{ "function Breakpoint.new(", <1>{    config = {      codewin_command = "new",      jump_bottom_gdb_buf = true,      key_breakpoint = "<f8>",      key_continue = "<f5>",      key_eval = "<f9>",      key_finish = "<f12>",      key_framedown = "<c-n>",      key_frameup = "<c-p>",      key_next = "<f10>",      key_step = "<f11>",      key_until = "<f4>",      set_keymaps = <function 1>,      set_scroll_off = 5,      set_tkeymaps = <function 2>,      sign_breakpoint = { "●", "●²", "●³", "●⁴", "●⁵", "●⁶", "●⁷", "●⁸", "●⁹", "●ⁿ" },      sign_breakpoint_priority = 10,      sign_current_line = "▶",      sticky_dbg_buf = true,      termwin_command = "belowright new",      unset_keymaps = <function 3>    },    <metatable> = <2>{      __index = <table 2>,      _apply_overrides = <function 4>,      _check_keymap_conflicts = <function 5>,      _define_signs = <function 6>,      get = <function 7>,      get_or = <function 8>,      new = <function 9>    }  }, {    client = {      buf_hidden_auid = -1,      client_buf = 20,      command = "/home/lain/.local/share/nvim/site/pack/packer/start/nvim-gdb/lib/gdb_wrap.sh -a /tmp/nvimgdb-sock-84NrVp/port -- gdb -q a.out",      config = <table 1>,      has_interacted = false,      is_active = false,      proxy_addr = "/tmp/nvimgdb-sock-84NrVp/port",      sock_dir = "/tmp/nvimgdb-sock-84NrVp",      win = 1051,      <metatable> = <3>{        __index = <table 3>,        _check_sticky = <function 10>,        _cleanup_buf_hidden = <function 11>,        cleanup = <function 12>,        get_buf = <function 13>,        get_proxy_addr = <function 14>,        interrupt = <function 15>,        mark_has_interacted = <function 16>,        new = <function 17>,        send_line = <function 18>,        start = <function 19>      }    },    proxy_addr = "/tmp/nvimgdb-sock-84NrVp/port",    sock = <userdata 1>,    <metatable> = <4>{      __index = <table 4>,      _ensure_connected = <function 20>,      cleanup = <function 21>,      new = <function 22>,      query = <function 23>    }  }, <function 24>, ")" }
+2023-01-19 17:31:53 [DEBUG] .../site/pack/packer/start/nvim-gdb/lua/nvimgdb/keymaps.lua:14: 	{ "function Keymaps.new(", {    config = {      codewin_command = "new",      jump_bottom_gdb_buf = true,      key_breakpoint = "<f8>",      key_continue = "<f5>",      key_eval = "<f9>",      key_finish = "<f12>",      key_framedown = "<c-n>",      key_frameup = "<c-p>",      key_next = "<f10>",      key_step = "<f11>",      key_until = "<f4>",      set_keymaps = <function 1>,      set_scroll_off = 5,      set_tkeymaps = <function 2>,      sign_breakpoint = { "●", "●²", "●³", "●⁴", "●⁵", "●⁶", "●⁷", "●⁸", "●⁹", "●ⁿ" },      sign_breakpoint_priority = 10,      sign_current_line = "▶",      sticky_dbg_buf = true,      termwin_command = "belowright new",      unset_keymaps = <function 3>    },    <metatable> = <1>{      __index = <table 1>,      _apply_overrides = <function 4>,      _check_keymap_conflicts = <function 5>,      _define_signs = <function 6>,      get = <function 7>,      get_or = <function 8>,      new = <function 9>    }  }, ")" }
+2023-01-19 17:31:53 [DEBUG] ...m/site/pack/packer/start/nvim-gdb/lua/nvimgdb/cursor.lua:18: 	{ "function Cursor.new(", {    config = {      codewin_command = "new",      jump_bottom_gdb_buf = true,      key_breakpoint = "<f8>",      key_continue = "<f5>",      key_eval = "<f9>",      key_finish = "<f12>",      key_framedown = "<c-n>",      key_frameup = "<c-p>",      key_next = "<f10>",      key_step = "<f11>",      key_until = "<f4>",      set_keymaps = <function 1>,      set_scroll_off = 5,      set_tkeymaps = <function 2>,      sign_breakpoint = { "●", "●²", "●³", "●⁴", "●⁵", "●⁶", "●⁷", "●⁸", "●⁹", "●ⁿ" },      sign_breakpoint_priority = 10,      sign_current_line = "▶",      sticky_dbg_buf = true,      termwin_command = "belowright new",      unset_keymaps = <function 3>    },    <metatable> = <1>{      __index = <table 1>,      _apply_overrides = <function 4>,      _check_keymap_conflicts = <function 5>,      _define_signs = <function 6>,      get = <function 7>,      get_or = <function 8>,      new = <function 9>    }  }, ")" }
+2023-01-19 17:31:53 [DEBUG] ...nvim/site/pack/packer/start/nvim-gdb/lua/nvimgdb/win.lua:27: 	{ "function Win.new(", <1>{    config = {      codewin_command = "new",      jump_bottom_gdb_buf = true,      key_breakpoint = "<f8>",      key_continue = "<f5>",      key_eval = "<f9>",      key_finish = "<f12>",      key_framedown = "<c-n>",      key_frameup = "<c-p>",      key_next = "<f10>",      key_step = "<f11>",      key_until = "<f4>",      set_keymaps = <function 1>,      set_scroll_off = 5,      set_tkeymaps = <function 2>,      sign_breakpoint = { "●", "●²", "●³", "●⁴", "●⁵", "●⁶", "●⁷", "●⁸", "●⁹", "●ⁿ" },      sign_breakpoint_priority = 10,      sign_current_line = "▶",      sticky_dbg_buf = true,      termwin_command = "belowright new",      unset_keymaps = <function 3>    },    <metatable> = <2>{      __index = <table 2>,      _apply_overrides = <function 4>,      _check_keymap_conflicts = <function 5>,      _define_signs = <function 6>,      get = <function 7>,      get_or = <function 8>,      new = <function 9>    }  }, {    config = <table 1>,    dispatch_active = true,    <metatable> = <3>{      __index = <table 3>,      _dispatch = <function 10>,      dispatch_set = <function 11>,      dispatch_set_t = <function 12>,      dispatch_unset = <function 13>,      new = <function 14>,      set = <function 1>,      set_dispatch_active = <function 15>,      set_t = <function 2>,      unset = <function 3>    }  }, {    buf = -1,    config = <table 1>,    line = -1,    sign_id = -1,    <metatable> = <4>{      __index = <table 4>,      hide = <function 16>,      new = <function 17>,      set = <function 18>,      show = <function 19>    }  }, <5>{    buf_hidden_auid = -1,    client_buf = 20,    command = "/home/lain/.local/share/nvim/site/pack/packer/start/nvim-gdb/lib/gdb_wrap.sh -a /tmp/nvimgdb-sock-84NrVp/port -- gdb -q a.out",    config = <table 1>,    has_interacted = false,    is_active = false,    proxy_addr = "/tmp/nvimgdb-sock-84NrVp/port",    sock_dir = "/tmp/nvimgdb-sock-84NrVp",    win = 1051,    <metatable> = <6>{      __index = <table 6>,      _check_sticky = <function 20>,      _cleanup_buf_hidden = <function 21>,      cleanup = <function 22>,      get_buf = <function 23>,      get_proxy_addr = <function 24>,      interrupt = <function 25>,      mark_has_interacted = <function 26>,      new = <function 27>,      send_line = <function 28>,      start = <function 29>    }  }, {    breaks = {},    config = <table 1>,    max_sign_id = 0,    proxy = {      client = <table 5>,      proxy_addr = "/tmp/nvimgdb-sock-84NrVp/port",      sock = <userdata 1>,      <metatable> = <7>{        __index = <table 7>,        _ensure_connected = <function 30>,        cleanup = <function 31>,        new = <function 32>,        query = <function 33>      }    },    query_impl = <function 34>,    <metatable> = <8>{      __index = <table 8>,      _set_signs = <function 35>,      clear_signs = <function 36>,      get_for_file = <function 37>,      new = <function 38>,      query = <function 39>,      reset_signs = <function 40>    }  }, 1000, 1, ")" }
+2023-01-19 17:31:53 [DEBUG] ...nvim/site/pack/packer/start/nvim-gdb/lua/nvimgdb/win.lua:122: 	{ "function Win:_ensure_jump_window()" }
+2023-01-19 17:31:53 [DEBUG] ...nvim/site/pack/packer/start/nvim-gdb/lua/nvimgdb/win.lua:71: 	{ "function Win:_has_jump_win()" }
+2023-01-19 17:31:53 [DEBUG] ...ack/packer/start/nvim-gdb/lua/nvimgdb/parser_actions.lua:13: 	{ "function ParserActions.new(", <1>{    buf = -1,    config = <2>{      config = {        codewin_command = "new",        jump_bottom_gdb_buf = true,        key_breakpoint = "<f8>",        key_continue = "<f5>",        key_eval = "<f9>",        key_finish = "<f12>",        key_framedown = "<c-n>",        key_frameup = "<c-p>",        key_next = "<f10>",        key_step = "<f11>",        key_until = "<f4>",        set_keymaps = <function 1>,        set_scroll_off = 5,        set_tkeymaps = <function 2>,        sign_breakpoint = { "●", "●²", "●³", "●⁴", "●⁵", "●⁶", "●⁷", "●⁸", "●⁹", "●ⁿ" },        sign_breakpoint_priority = 10,        sign_current_line = "▶",        sticky_dbg_buf = true,        termwin_command = "belowright new",        unset_keymaps = <function 3>      },      <metatable> = <3>{        __index = <table 3>,        _apply_overrides = <function 4>,        _check_keymap_conflicts = <function 5>,        _define_signs = <function 6>,        get = <function 7>,        get_or = <function 8>,        new = <function 9>      }    },    line = -1,    sign_id = -1,    <metatable> = <4>{      __index = <table 4>,      hide = <function 10>,      new = <function 11>,      set = <function 12>,      show = <function 13>    }  }, {    breakpoint = {      breaks = {},      config = <table 2>,      max_sign_id = 0,      proxy = {        client = <5>{          buf_hidden_auid = -1,          client_buf = 20,          command = "/home/lain/.local/share/nvim/site/pack/packer/start/nvim-gdb/lib/gdb_wrap.sh -a /tmp/nvimgdb-sock-84NrVp/port -- gdb -q a.out",          config = <table 2>,          has_interacted = false,          is_active = false,          proxy_addr = "/tmp/nvimgdb-sock-84NrVp/port",          sock_dir = "/tmp/nvimgdb-sock-84NrVp",          win = 1051,          <metatable> = <6>{            __index = <table 6>,            _check_sticky = <function 14>,            _cleanup_buf_hidden = <function 15>,            cleanup = <function 16>,            get_buf = <function 17>,            get_proxy_addr = <function 18>,            interrupt = <function 19>,            mark_has_interacted = <function 20>,            new = <function 21>,            send_line = <function 22>,            start = <function 23>          }        },        proxy_addr = "/tmp/nvimgdb-sock-84NrVp/port",        sock = <userdata 1>,        <metatable> = <7>{          __index = <table 7>,          _ensure_connected = <function 24>,          cleanup = <function 25>,          new = <function 26>,          query = <function 27>        }      },      query_impl = <function 28>,      <metatable> = <8>{        __index = <table 8>,        _set_signs = <function 29>,        clear_signs = <function 30>,        get_for_file = <function 31>,        new = <function 32>,        query = <function 33>,        reset_signs = <function 34>      }    },    buffers = {},    client = <table 5>,    config = <table 2>,    cursor = <table 1>,    jump_win = 1000,    keymaps = {      config = <table 2>,      dispatch_active = true,      <metatable> = <9>{        __index = <table 9>,        _dispatch = <function 35>,        dispatch_set = <function 36>,        dispatch_set_t = <function 37>,        dispatch_unset = <function 38>,        new = <function 39>,        set = <function 1>,        set_dispatch_active = <function 40>,        set_t = <function 2>,        unset = <function 3>      }    },    <metatable> = <10>{      __index = <table 10>,      _adjust_jump_win_view = <function 41>,      _ensure_jump_window = <function 42>,      _has_jump_win = <function 43>,      _open_file = <function 44>,      _with_saved_mode = <function 45>,      _with_saved_win = <function 46>,      cleanup = <function 47>,      is_jump_window_active = <function 48>,      jump = <function 49>,      lopen = <function 50>,      new = <function 51>,      query_breakpoints = <function 52>,      unset_keymaps = <function 53>    }  }, ")" }
+2023-01-19 17:31:53 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:30: 	{ "function ParserImpl:_init(", {    cursor = <1>{      buf = -1,      config = <2>{        config = {          codewin_command = "new",          jump_bottom_gdb_buf = true,          key_breakpoint = "<f8>",          key_continue = "<f5>",          key_eval = "<f9>",          key_finish = "<f12>",          key_framedown = "<c-n>",          key_frameup = "<c-p>",          key_next = "<f10>",          key_step = "<f11>",          key_until = "<f4>",          set_keymaps = <function 1>,          set_scroll_off = 5,          set_tkeymaps = <function 2>,          sign_breakpoint = { "●", "●²", "●³", "●⁴", "●⁵", "●⁶", "●⁷", "●⁸", "●⁹", "●ⁿ" },          sign_breakpoint_priority = 10,          sign_current_line = "▶",          sticky_dbg_buf = true,          termwin_command = "belowright new",          unset_keymaps = <function 3>        },        <metatable> = <3>{          __index = <table 3>,          _apply_overrides = <function 4>,          _check_keymap_conflicts = <function 5>,          _define_signs = <function 6>,          get = <function 7>,          get_or = <function 8>,          new = <function 9>        }      },      line = -1,      sign_id = -1,      <metatable> = <4>{        __index = <table 4>,        hide = <function 10>,        new = <function 11>,        set = <function 12>,        show = <function 13>      }    },    win = {      breakpoint = {        breaks = {},        config = <table 2>,        max_sign_id = 0,        proxy = {          client = <5>{            buf_hidden_auid = -1,            client_buf = 20,            command = "/home/lain/.local/share/nvim/site/pack/packer/start/nvim-gdb/lib/gdb_wrap.sh -a /tmp/nvimgdb-sock-84NrVp/port -- gdb -q a.out",            config = <table 2>,            has_interacted = false,            is_active = false,            proxy_addr = "/tmp/nvimgdb-sock-84NrVp/port",            sock_dir = "/tmp/nvimgdb-sock-84NrVp",            win = 1051,            <metatable> = <6>{              __index = <table 6>,              _check_sticky = <function 14>,              _cleanup_buf_hidden = <function 15>,              cleanup = <function 16>,              get_buf = <function 17>,              get_proxy_addr = <function 18>,              interrupt = <function 19>,              mark_has_interacted = <function 20>,              new = <function 21>,              send_line = <function 22>,              start = <function 23>            }          },          proxy_addr = "/tmp/nvimgdb-sock-84NrVp/port",          sock = <userdata 1>,          <metatable> = <7>{            __index = <table 7>,            _ensure_connected = <function 24>,            cleanup = <function 25>,            new = <function 26>,            query = <function 27>          }        },        query_impl = <function 28>,        <metatable> = <8>{          __index = <table 8>,          _set_signs = <function 29>,          clear_signs = <function 30>,          get_for_file = <function 31>,          new = <function 32>,          query = <function 33>,          reset_signs = <function 34>        }      },      buffers = {},      client = <table 5>,      config = <table 2>,      cursor = <table 1>,      jump_win = 1000,      keymaps = {        config = <table 2>,        dispatch_active = true,        <metatable> = <9>{          __index = <table 9>,          _dispatch = <function 35>,          dispatch_set = <function 36>,          dispatch_set_t = <function 37>,          dispatch_unset = <function 38>,          new = <function 39>,          set = <function 1>,          set_dispatch_active = <function 40>,          set_t = <function 2>,          unset = <function 3>        }      },      <metatable> = <10>{        __index = <table 10>,        _adjust_jump_win_view = <function 41>,        _ensure_jump_window = <function 42>,        _has_jump_win = <function 43>,        _open_file = <function 44>,        _with_saved_mode = <function 45>,        _with_saved_win = <function 46>,        cleanup = <function 47>,        is_jump_window_active = <function 48>,        jump = <function 49>,        lopen = <function 50>,        new = <function 51>,        query_breakpoints = <function 52>,        unset_keymaps = <function 53>      }    },    <metatable> = <11>{      __index = <table 11>,      continue_program = <function 54>,      jump_to_source = <function 55>,      new = <function 56>,      query_breakpoints = <function 57>    }  }, ")" }
+2023-01-19 17:31:53 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:53: 	{ "function ParserImpl.add_trans(", {}, "[\r\n]Continuing%.", <function 1>, ")" }
+2023-01-19 17:31:53 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:53: 	{ "function ParserImpl.add_trans(", { {      handler = <function 1>,      matcher = "[\r\n]Continuing%."    } }, "[\r\n]\26\26([^:]+):(%d+):%d+", <function 2>, ")" }
+2023-01-19 17:31:53 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:53: 	{ "function ParserImpl.add_trans(", { {      handler = <function 1>,      matcher = "[\r\n]Continuing%."    }, {      handler = <function 2>,      matcher = "[\r\n]\26\26([^:]+):(%d+):%d+"    } }, "\26\26\26$", <function 3>, ")" }
+2023-01-19 17:31:53 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:53: 	{ "function ParserImpl.add_trans(", {}, "%sBreakpoint %d+", <function 1>, ")" }
+2023-01-19 17:31:53 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:53: 	{ "function ParserImpl.add_trans(", { {      handler = <function 1>,      matcher = "%sBreakpoint %d+"    } }, "%sTemporary breakpoint %d+", <function 1>, ")" }
+2023-01-19 17:31:53 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:53: 	{ "function ParserImpl.add_trans(", { {      handler = <function 1>,      matcher = "%sBreakpoint %d+"    }, {      handler = <function 1>,      matcher = "%sTemporary breakpoint %d+"    } }, "[\r\n]\26\26([^:]+):(%d+):%d+", <function 2>, ")" }
+2023-01-19 17:31:53 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:53: 	{ "function ParserImpl.add_trans(", { {      handler = <function 1>,      matcher = "%sBreakpoint %d+"    }, {      handler = <function 1>,      matcher = "%sTemporary breakpoint %d+"    }, {      handler = <function 2>,      matcher = "[\r\n]\26\26([^:]+):(%d+):%d+"    } }, "\26\26\26$", <function 1>, ")" }
+2023-01-19 17:31:53 [INFO] ...are/nvim/site/pack/packer/start/nvim-gdb/lua/nvimgdb.lua:26: 	{ "Tabpage", 1 }
+2023-01-19 17:31:53 [INFO] ...are/nvim/site/pack/packer/start/nvim-gdb/lua/nvimgdb.lua:31: 	"Calling nvimgdb#GlobalInit()"
+2023-01-19 17:31:53 [DEBUG] ...nvim/site/pack/packer/start/nvim-gdb/lua/nvimgdb/app.lua:89: 	{ "function App:postinit()" }
+2023-01-19 17:31:53 [DEBUG] ...m/site/pack/packer/start/nvim-gdb/lua/nvimgdb/client.lua:80: 	{ "function Client:start()" }
+2023-01-19 17:31:53 [DEBUG] ...m/site/pack/packer/start/nvim-gdb/lua/nvimgdb/config.lua:192: 	{ "function Config:get_or(", "sticky_dbg_buf", true, ")" }
+2023-01-19 17:31:53 [DEBUG] ...m/site/pack/packer/start/nvim-gdb/lua/nvimgdb/config.lua:183: 	{ "function Config:get(", "sticky_dbg_buf", ")" }
+2023-01-19 17:31:53 [DEBUG] .../site/pack/packer/start/nvim-gdb/lua/nvimgdb/keymaps.lua:118: 	{ "function Keymaps:dispatch_set_t()" }
+2023-01-19 17:31:53 [DEBUG] .../site/pack/packer/start/nvim-gdb/lua/nvimgdb/keymaps.lua:98: 	{ "function Keymaps:_dispatch(", "set_tkeymaps", ")" }
+2023-01-19 17:31:53 [DEBUG] ...m/site/pack/packer/start/nvim-gdb/lua/nvimgdb/config.lua:192: 	{ "function Config:get_or(", "set_tkeymaps", <function 1>, ")" }
+2023-01-19 17:31:53 [DEBUG] ...m/site/pack/packer/start/nvim-gdb/lua/nvimgdb/config.lua:183: 	{ "function Config:get(", "set_tkeymaps", ")" }
+2023-01-19 17:31:53 [DEBUG] .../site/pack/packer/start/nvim-gdb/lua/nvimgdb/keymaps.lua:83: 	{ "function Keymaps:set_t()" }
+2023-01-19 17:31:53 [DEBUG] ...m/site/pack/packer/start/nvim-gdb/lua/nvimgdb/config.lua:183: 	{ "function Config:get(", "key_until", ")" }
+2023-01-19 17:31:53 [DEBUG] ...m/site/pack/packer/start/nvim-gdb/lua/nvimgdb/config.lua:183: 	{ "function Config:get(", "key_continue", ")" }
+2023-01-19 17:31:53 [DEBUG] ...m/site/pack/packer/start/nvim-gdb/lua/nvimgdb/config.lua:183: 	{ "function Config:get(", "key_next", ")" }
+2023-01-19 17:31:53 [DEBUG] ...m/site/pack/packer/start/nvim-gdb/lua/nvimgdb/config.lua:183: 	{ "function Config:get(", "key_step", ")" }
+2023-01-19 17:31:53 [DEBUG] ...m/site/pack/packer/start/nvim-gdb/lua/nvimgdb/config.lua:183: 	{ "function Config:get(", "key_finish", ")" }
+2023-01-19 17:31:53 [DEBUG] ...m/site/pack/packer/start/nvim-gdb/lua/nvimgdb/config.lua:183: 	{ "function Config:get(", "key_quit", ")" }
+2023-01-19 17:31:53 [DEBUG] .../site/pack/packer/start/nvim-gdb/lua/nvimgdb/keymaps.lua:106: 	{ "function Keymaps:dispatch_set()" }
+2023-01-19 17:31:53 [DEBUG] .../site/pack/packer/start/nvim-gdb/lua/nvimgdb/keymaps.lua:98: 	{ "function Keymaps:_dispatch(", "set_keymaps", ")" }
+2023-01-19 17:31:53 [DEBUG] ...m/site/pack/packer/start/nvim-gdb/lua/nvimgdb/config.lua:192: 	{ "function Config:get_or(", "set_keymaps", <function 1>, ")" }
+2023-01-19 17:31:53 [DEBUG] ...m/site/pack/packer/start/nvim-gdb/lua/nvimgdb/config.lua:183: 	{ "function Config:get(", "set_keymaps", ")" }
+2023-01-19 17:31:53 [DEBUG] .../site/pack/packer/start/nvim-gdb/lua/nvimgdb/keymaps.lua:44: 	{ "function Keymaps:set()" }
+2023-01-19 17:31:53 [DEBUG] ...m/site/pack/packer/start/nvim-gdb/lua/nvimgdb/config.lua:183: 	{ "function Config:get(", "key_until", ")" }
+2023-01-19 17:31:53 [DEBUG] ...m/site/pack/packer/start/nvim-gdb/lua/nvimgdb/config.lua:183: 	{ "function Config:get(", "key_continue", ")" }
+2023-01-19 17:31:53 [DEBUG] ...m/site/pack/packer/start/nvim-gdb/lua/nvimgdb/config.lua:183: 	{ "function Config:get(", "key_next", ")" }
+2023-01-19 17:31:53 [DEBUG] ...m/site/pack/packer/start/nvim-gdb/lua/nvimgdb/config.lua:183: 	{ "function Config:get(", "key_step", ")" }
+2023-01-19 17:31:53 [DEBUG] ...m/site/pack/packer/start/nvim-gdb/lua/nvimgdb/config.lua:183: 	{ "function Config:get(", "key_finish", ")" }
+2023-01-19 17:31:53 [DEBUG] ...m/site/pack/packer/start/nvim-gdb/lua/nvimgdb/config.lua:183: 	{ "function Config:get(", "key_breakpoint", ")" }
+2023-01-19 17:31:53 [DEBUG] ...m/site/pack/packer/start/nvim-gdb/lua/nvimgdb/config.lua:183: 	{ "function Config:get(", "key_frameup", ")" }
+2023-01-19 17:31:53 [DEBUG] ...m/site/pack/packer/start/nvim-gdb/lua/nvimgdb/config.lua:183: 	{ "function Config:get(", "key_framedown", ")" }
+2023-01-19 17:31:53 [DEBUG] ...m/site/pack/packer/start/nvim-gdb/lua/nvimgdb/config.lua:183: 	{ "function Config:get(", "key_eval", ")" }
+2023-01-19 17:31:53 [DEBUG] ...m/site/pack/packer/start/nvim-gdb/lua/nvimgdb/config.lua:183: 	{ "function Config:get(", "key_eval", ")" }
+2023-01-19 17:31:53 [DEBUG] ...m/site/pack/packer/start/nvim-gdb/lua/nvimgdb/config.lua:183: 	{ "function Config:get(", "key_quit", ")" }
+2023-01-19 17:31:53 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:125: 	{ "function ParserImpl:feed(", { "Reading symbols from \27[32ma.out\27[m...\r", "" }, ")" }
+2023-01-19 17:31:53 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:127: 	"Reading symbols from \27[32ma.out\27[m...\r"
+2023-01-19 17:31:53 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:127: 	""
+2023-01-19 17:31:53 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:144: 	{ "function ParserImpl:_delay_parsing(", 50, 32, ")" }
+2023-01-19 17:31:53 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:125: 	{ "function ParserImpl:feed(", { "\27[?2004h(gdb) \26\26\26" }, ")" }
+2023-01-19 17:31:53 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:127: 	"\27[?2004h(gdb) \26\26\26"
+2023-01-19 17:31:53 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:144: 	{ "function ParserImpl:_delay_parsing(", 50, 41, ")" }
+2023-01-19 17:31:53 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:180: 	{ "function ParserImpl:delay_elapsed(", 32, ")" }
+2023-01-19 17:31:53 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:155: 	{ "function ParserImpl:_search(", 9, ")" }
+2023-01-19 17:31:53 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:180: 	{ "function ParserImpl:delay_elapsed(", 41, ")" }
+2023-01-19 17:31:53 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:155: 	{ "function ParserImpl:_search(", 0, ")" }
+2023-01-19 17:31:53 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:73: 	{ "function ParserImpl:_get_state_name()" }
+2023-01-19 17:31:53 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:168: 	"prev state: running"
+2023-01-19 17:31:53 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:114: 	{ "function ParserImpl:_query_b()" }
+2023-01-19 17:31:53 [INFO] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:115: 	"_query_b"
+2023-01-19 17:31:53 [DEBUG] ...ack/packer/start/nvim-gdb/lua/nvimgdb/parser_actions.lua:38: 	{ "function ParserActions:query_breakpoints()" }
+2023-01-19 17:31:53 [DEBUG] ...nvim/site/pack/packer/start/nvim-gdb/lua/nvimgdb/win.lua:265: 	{ "function Win:query_breakpoints()" }
+2023-01-19 17:31:53 [DEBUG] ...nvim/site/pack/packer/start/nvim-gdb/lua/nvimgdb/win.lua:71: 	{ "function Win:_has_jump_win()" }
+2023-01-19 17:31:53 [DEBUG] ...te/pack/packer/start/nvim-gdb/lua/nvimgdb/breakpoint.lua:78: 	{ "function Breakpoint:query(", 1, "/home/lain/src/cp/sbor/regjan32/d5/b.cpp", ")" }
+2023-01-19 17:31:53 [INFO] ...te/pack/packer/start/nvim-gdb/lua/nvimgdb/breakpoint.lua:79: 	"Query breakpoints for /home/lain/src/cp/sbor/regjan32/d5/b.cpp"
+2023-01-19 17:31:53 [INFO] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/backend/gdb.lua:49: 	"Query breakpoints for /home/lain/src/cp/sbor/regjan32/d5/b.cpp"
+2023-01-19 17:31:53 [DEBUG] ...im/site/pack/packer/start/nvim-gdb/lua/nvimgdb/proxy.lua:62: 	{ "function Proxy:query(", "handle-command info breakpoints", ")" }
+2023-01-19 17:31:53 [INFO] ...im/site/pack/packer/start/nvim-gdb/lua/nvimgdb/proxy.lua:63: 	"Query handle-command info breakpoints"
+2023-01-19 17:31:53 [DEBUG] ...im/site/pack/packer/start/nvim-gdb/lua/nvimgdb/proxy.lua:44: 	{ "function Proxy:_ensure_connected()" }
+2023-01-19 17:31:53 [DEBUG] ...te/pack/packer/start/nvim-gdb/lua/nvimgdb/breakpoint.lua:33: 	{ "function Breakpoint:clear_signs()" }
+2023-01-19 17:31:53 [DEBUG] ...te/pack/packer/start/nvim-gdb/lua/nvimgdb/breakpoint.lua:44: 	{ "function Breakpoint:_set_signs(", 1, ")" }
+2023-01-19 17:31:53 [DEBUG] ...m/site/pack/packer/start/nvim-gdb/lua/nvimgdb/config.lua:183: 	{ "function Config:get(", "sign_breakpoint_priority", ")" }
+2023-01-19 17:31:53 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:73: 	{ "function ParserImpl:_get_state_name()" }
+2023-01-19 17:31:53 [INFO] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:170: 	"new state: paused"
+2023-01-19 17:31:53 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:155: 	{ "function ParserImpl:_search(", 0, ")" }
+2023-01-19 17:31:58 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:125: 	{ "function ParserImpl:feed(", { "r" }, ")" }
+2023-01-19 17:31:58 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:127: 	"r"
+2023-01-19 17:31:58 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:144: 	{ "function ParserImpl:_delay_parsing(", 50, 42, ")" }
+2023-01-19 17:31:58 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:180: 	{ "function ParserImpl:delay_elapsed(", 42, ")" }
+2023-01-19 17:31:58 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:155: 	{ "function ParserImpl:_search(", 0, ")" }
+2023-01-19 17:31:58 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:125: 	{ "function ParserImpl:feed(", { "\r", "\27[?2004l\r" }, ")" }
+2023-01-19 17:31:58 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:127: 	"\r"
+2023-01-19 17:31:58 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:127: 	"\27[?2004l\r"
+2023-01-19 17:31:58 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:144: 	{ "function ParserImpl:_delay_parsing(", 50, 44, ")" }
+2023-01-19 17:31:58 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:125: 	{ "function ParserImpl:feed(", { "Starting program: \27[32m/home/lain/src/cp/sbor/regjan32/d5/a.out\27[m \r", "" }, ")" }
+2023-01-19 17:31:58 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:127: 	"Starting program: \27[32m/home/lain/src/cp/sbor/regjan32/d5/a.out\27[m \r"
+2023-01-19 17:31:58 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:127: 	""
+2023-01-19 17:31:58 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:144: 	{ "function ParserImpl:_delay_parsing(", 50, 105, ")" }
+2023-01-19 17:31:58 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:180: 	{ "function ParserImpl:delay_elapsed(", 44, ")" }
+2023-01-19 17:31:58 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:155: 	{ "function ParserImpl:_search(", 61, ")" }
+2023-01-19 17:31:58 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:180: 	{ "function ParserImpl:delay_elapsed(", 105, ")" }
+2023-01-19 17:31:58 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:155: 	{ "function ParserImpl:_search(", 0, ")" }
+2023-01-19 17:31:58 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:125: 	{ "function ParserImpl:feed(", { "5 3\r", "1 3 2 5 6\r", "2 4 3\r", "2 4 1\r", "1 5 2" }, ")" }
+2023-01-19 17:31:58 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:127: 	"5 3\r"
+2023-01-19 17:31:58 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:127: 	"1 3 2 5 6\r"
+2023-01-19 17:31:58 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:127: 	"2 4 3\r"
+2023-01-19 17:31:58 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:127: 	"2 4 1\r"
+2023-01-19 17:31:58 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:127: 	"1 5 2"
+2023-01-19 17:31:58 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:144: 	{ "function ParserImpl:_delay_parsing(", 50, 136, ")" }
+2023-01-19 17:31:58 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:180: 	{ "function ParserImpl:delay_elapsed(", 136, ")" }
+2023-01-19 17:31:58 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:155: 	{ "function ParserImpl:_search(", 0, ")" }
+2023-01-19 17:31:58 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:125: 	{ "function ParserImpl:feed(", { "[Thread debugging using libthread_db enabled]\r", 'Using host libthread_db library "\27[32m/usr/lib/libthread_db.so.1\27[m".\r', "" }, ")" }
+2023-01-19 17:31:58 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:127: 	"[Thread debugging using libthread_db enabled]\r"
+2023-01-19 17:31:58 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:127: 	'Using host libthread_db library "\27[32m/usr/lib/libthread_db.so.1\27[m".\r'
+2023-01-19 17:31:58 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:127: 	""
+2023-01-19 17:31:58 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:144: 	{ "function ParserImpl:_delay_parsing(", 50, 245, ")" }
+2023-01-19 17:31:58 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:180: 	{ "function ParserImpl:delay_elapsed(", 245, ")" }
+2023-01-19 17:31:58 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:155: 	{ "function ParserImpl:_search(", 0, ")" }
+2023-01-19 17:31:59 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:125: 	{ "function ParserImpl:feed(", { "\r", "" }, ")" }
+2023-01-19 17:31:59 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:127: 	"\r"
+2023-01-19 17:31:59 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:127: 	""
+2023-01-19 17:31:59 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:144: 	{ "function ParserImpl:_delay_parsing(", 50, 247, ")" }
+2023-01-19 17:31:59 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:180: 	{ "function ParserImpl:delay_elapsed(", 247, ")" }
+2023-01-19 17:31:59 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:155: 	{ "function ParserImpl:_search(", 0, ")" }
+2023-01-19 17:32:00 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:125: 	{ "function ParserImpl:feed(", { "^C" }, ")" }
+2023-01-19 17:32:00 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:127: 	"^C"
+2023-01-19 17:32:00 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:144: 	{ "function ParserImpl:_delay_parsing(", 50, 249, ")" }
+2023-01-19 17:32:00 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:125: 	{ "function ParserImpl:feed(", { "\r", "Program received signal SIGINT, Interrupt.\r", "" }, ")" }
+2023-01-19 17:32:00 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:127: 	"\r"
+2023-01-19 17:32:00 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:127: 	"Program received signal SIGINT, Interrupt.\r"
+2023-01-19 17:32:00 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:127: 	""
+2023-01-19 17:32:00 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:144: 	{ "function ParserImpl:_delay_parsing(", 50, 294, ")" }
+2023-01-19 17:32:00 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:125: 	{ "function ParserImpl:feed(", { "\27[34m0x0000555555678138\27[m in \27[33mcmb\27[m (\27[36mx\27[m=std::vector of length 0, capacity 2, \27[36ml\27[m=std::vector of length 1, capacity 1 = {...}, \27[36mr\27[m=std::vector of length 1, capacity 1 = {...}) at \27[32m/home/lain/src/cp/sbor/regjan32/d5/b.cpp\27[m:21\r", "" }, ")" }
+2023-01-19 17:32:00 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:127: 	"\27[34m0x0000555555678138\27[m in \27[33mcmb\27[m (\27[36mx\27[m=std::vector of length 0, capacity 2, \27[36ml\27[m=std::vector of length 1, capacity 1 = {...}, \27[36mr\27[m=std::vector of length 1, capacity 1 = {...}) at \27[32m/home/lain/src/cp/sbor/regjan32/d5/b.cpp\27[m:21\r"
+2023-01-19 17:32:00 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:127: 	""
+2023-01-19 17:32:00 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:144: 	{ "function ParserImpl:_delay_parsing(", 50, 502, ")" }
+2023-01-19 17:32:00 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:125: 	{ "function ParserImpl:feed(", { "\26\26/home/lain/src/cp/sbor/regjan32/d5/b.cpp:21:399:beg:0x555555678138\r", "" }, ")" }
+2023-01-19 17:32:00 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:127: 	"\26\26/home/lain/src/cp/sbor/regjan32/d5/b.cpp:21:399:beg:0x555555678138\r"
+2023-01-19 17:32:00 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:127: 	""
+2023-01-19 17:32:00 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:144: 	{ "function ParserImpl:_delay_parsing(", 50, 572, ")" }
+2023-01-19 17:32:00 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:125: 	{ "function ParserImpl:feed(", { "\27[?2004h\27[?2004l\r\27[?2004h(gdb) \26\26\26" }, ")" }
+2023-01-19 17:32:00 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:127: 	"\27[?2004h\27[?2004l\r\27[?2004h(gdb) \26\26\26"
+2023-01-19 17:32:00 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:144: 	{ "function ParserImpl:_delay_parsing(", 50, 582, ")" }
+2023-01-19 17:32:00 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:180: 	{ "function ParserImpl:delay_elapsed(", 249, ")" }
+2023-01-19 17:32:00 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:155: 	{ "function ParserImpl:_search(", 333, ")" }
+2023-01-19 17:32:00 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:180: 	{ "function ParserImpl:delay_elapsed(", 294, ")" }
+2023-01-19 17:32:00 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:155: 	{ "function ParserImpl:_search(", 288, ")" }
+2023-01-19 17:32:00 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:180: 	{ "function ParserImpl:delay_elapsed(", 502, ")" }
+2023-01-19 17:32:00 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:155: 	{ "function ParserImpl:_search(", 80, ")" }
+2023-01-19 17:32:00 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:180: 	{ "function ParserImpl:delay_elapsed(", 572, ")" }
+2023-01-19 17:32:00 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:155: 	{ "function ParserImpl:_search(", 10, ")" }
+2023-01-19 17:32:00 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:73: 	{ "function ParserImpl:_get_state_name()" }
+2023-01-19 17:32:00 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:168: 	"prev state: paused"
+2023-01-19 17:32:00 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:97: 	{ "function ParserImpl:_paused_jump(", "/home/lain/src/cp/sbor/regjan32/d5/b.cpp", "21", ")" }
+2023-01-19 17:32:00 [INFO] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:98: 	"_paused_jump /home/lain/src/cp/sbor/regjan32/d5/b.cpp:21"
+2023-01-19 17:32:00 [DEBUG] ...ack/packer/start/nvim-gdb/lua/nvimgdb/parser_actions.lua:31: 	{ "function ParserActions:jump_to_source(", "/home/lain/src/cp/sbor/regjan32/d5/b.cpp", 21, ")" }
+2023-01-19 17:32:00 [INFO] ...nvim/site/pack/packer/start/nvim-gdb/lua/nvimgdb/win.lua:180: 	{ "function Win:jump(", "/home/lain/src/cp/sbor/regjan32/d5/b.cpp", 21, ")" }
+2023-01-19 17:32:00 [DEBUG] ...nvim/site/pack/packer/start/nvim-gdb/lua/nvimgdb/win.lua:112: 	{ "function Win:_with_saved_mode(", <function 1>, ")" }
+2023-01-19 17:32:00 [DEBUG] ...nvim/site/pack/packer/start/nvim-gdb/lua/nvimgdb/win.lua:122: 	{ "function Win:_ensure_jump_window()" }
+2023-01-19 17:32:00 [DEBUG] ...nvim/site/pack/packer/start/nvim-gdb/lua/nvimgdb/win.lua:71: 	{ "function Win:_has_jump_win()" }
+2023-01-19 17:32:00 [DEBUG] ...m/site/pack/packer/start/nvim-gdb/lua/nvimgdb/client.lua:161: 	{ "function Client:get_buf()" }
+2023-01-19 17:32:00 [DEBUG] ...nvim/site/pack/packer/start/nvim-gdb/lua/nvimgdb/win.lua:97: 	{ "function Win:_with_saved_win(", false, <function 1>, ")" }
+2023-01-19 17:32:00 [DEBUG] .../site/pack/packer/start/nvim-gdb/lua/nvimgdb/keymaps.lua:24: 	{ "function Keymaps:set_dispatch_active(", false, ")" }
+2023-01-19 17:32:00 [DEBUG] ...m/site/pack/packer/start/nvim-gdb/lua/nvimgdb/cursor.lua:64: 	{ "function Cursor:set(", 1, 21, ")" }
+2023-01-19 17:32:00 [DEBUG] ...m/site/pack/packer/start/nvim-gdb/lua/nvimgdb/cursor.lua:38: 	{ "function Cursor:show()" }
+2023-01-19 17:32:00 [DEBUG] ...m/site/pack/packer/start/nvim-gdb/lua/nvimgdb/config.lua:183: 	{ "function Config:get(", "sign_breakpoint_priority", ")" }
+2023-01-19 17:32:00 [DEBUG] ...m/site/pack/packer/start/nvim-gdb/lua/nvimgdb/config.lua:192: 	{ "function Config:get_or(", "set_scroll_off", 1, ")" }
+2023-01-19 17:32:00 [DEBUG] ...m/site/pack/packer/start/nvim-gdb/lua/nvimgdb/config.lua:183: 	{ "function Config:get(", "set_scroll_off", ")" }
+2023-01-19 17:32:00 [DEBUG] ...nvim/site/pack/packer/start/nvim-gdb/lua/nvimgdb/win.lua:138: 	{ "function Win:_adjust_jump_win_view(", 21, 5, ")" }
+2023-01-19 17:32:00 [DEBUG] ...nvim/site/pack/packer/start/nvim-gdb/lua/nvimgdb/app.lua:267: 	{ "function App:on_buf_leave()" }
+2023-01-19 17:32:00 [DEBUG] ...nvim/site/pack/packer/start/nvim-gdb/lua/nvimgdb/win.lua:84: 	{ "function Win:is_jump_window_active()" }
+2023-01-19 17:32:00 [DEBUG] ...nvim/site/pack/packer/start/nvim-gdb/lua/nvimgdb/win.lua:71: 	{ "function Win:_has_jump_win()" }
+2023-01-19 17:32:00 [DEBUG] .../site/pack/packer/start/nvim-gdb/lua/nvimgdb/keymaps.lua:112: 	{ "function Keymaps:dispatch_unset()" }
+2023-01-19 17:32:00 [DEBUG] .../site/pack/packer/start/nvim-gdb/lua/nvimgdb/keymaps.lua:98: 	{ "function Keymaps:_dispatch(", "unset_keymaps", ")" }
+2023-01-19 17:32:00 [DEBUG] ...nvim/site/pack/packer/start/nvim-gdb/lua/nvimgdb/app.lua:256: 	{ "function App:on_buf_enter()" }
+2023-01-19 17:32:00 [DEBUG] .../site/pack/packer/start/nvim-gdb/lua/nvimgdb/keymaps.lua:24: 	{ "function Keymaps:set_dispatch_active(", true, ")" }
+2023-01-19 17:32:01 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:73: 	{ "function ParserImpl:_get_state_name()" }
+2023-01-19 17:32:01 [INFO] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:170: 	"new state: paused"
+2023-01-19 17:32:01 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:155: 	{ "function ParserImpl:_search(", 10, ")" }
+2023-01-19 17:32:01 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:180: 	{ "function ParserImpl:delay_elapsed(", 582, ")" }
+2023-01-19 17:32:01 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:155: 	{ "function ParserImpl:_search(", 0, ")" }
+2023-01-19 17:32:01 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:73: 	{ "function ParserImpl:_get_state_name()" }
+2023-01-19 17:32:01 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:168: 	"prev state: paused"
+2023-01-19 17:32:01 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:114: 	{ "function ParserImpl:_query_b()" }
+2023-01-19 17:32:01 [INFO] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:115: 	"_query_b"
+2023-01-19 17:32:01 [DEBUG] ...ack/packer/start/nvim-gdb/lua/nvimgdb/parser_actions.lua:38: 	{ "function ParserActions:query_breakpoints()" }
+2023-01-19 17:32:01 [DEBUG] ...nvim/site/pack/packer/start/nvim-gdb/lua/nvimgdb/win.lua:265: 	{ "function Win:query_breakpoints()" }
+2023-01-19 17:32:01 [DEBUG] ...nvim/site/pack/packer/start/nvim-gdb/lua/nvimgdb/win.lua:71: 	{ "function Win:_has_jump_win()" }
+2023-01-19 17:32:01 [DEBUG] ...te/pack/packer/start/nvim-gdb/lua/nvimgdb/breakpoint.lua:78: 	{ "function Breakpoint:query(", 1, "/home/lain/src/cp/sbor/regjan32/d5/b.cpp", ")" }
+2023-01-19 17:32:01 [INFO] ...te/pack/packer/start/nvim-gdb/lua/nvimgdb/breakpoint.lua:79: 	"Query breakpoints for /home/lain/src/cp/sbor/regjan32/d5/b.cpp"
+2023-01-19 17:32:01 [INFO] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/backend/gdb.lua:49: 	"Query breakpoints for /home/lain/src/cp/sbor/regjan32/d5/b.cpp"
+2023-01-19 17:32:01 [DEBUG] ...im/site/pack/packer/start/nvim-gdb/lua/nvimgdb/proxy.lua:62: 	{ "function Proxy:query(", "handle-command info breakpoints", ")" }
+2023-01-19 17:32:01 [INFO] ...im/site/pack/packer/start/nvim-gdb/lua/nvimgdb/proxy.lua:63: 	"Query handle-command info breakpoints"
+2023-01-19 17:32:01 [DEBUG] ...im/site/pack/packer/start/nvim-gdb/lua/nvimgdb/proxy.lua:44: 	{ "function Proxy:_ensure_connected()" }
+2023-01-19 17:32:01 [DEBUG] ...te/pack/packer/start/nvim-gdb/lua/nvimgdb/breakpoint.lua:33: 	{ "function Breakpoint:clear_signs()" }
+2023-01-19 17:32:01 [DEBUG] ...te/pack/packer/start/nvim-gdb/lua/nvimgdb/breakpoint.lua:44: 	{ "function Breakpoint:_set_signs(", 1, ")" }
+2023-01-19 17:32:01 [DEBUG] ...m/site/pack/packer/start/nvim-gdb/lua/nvimgdb/config.lua:183: 	{ "function Config:get(", "sign_breakpoint_priority", ")" }
+2023-01-19 17:32:01 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:73: 	{ "function ParserImpl:_get_state_name()" }
+2023-01-19 17:32:01 [INFO] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:170: 	"new state: paused"
+2023-01-19 17:32:01 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:155: 	{ "function ParserImpl:_search(", 0, ")" }
+2023-01-19 17:32:01 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:125: 	{ "function ParserImpl:feed(", { "b" }, ")" }
+2023-01-19 17:32:01 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:127: 	"b"
+2023-01-19 17:32:01 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:144: 	{ "function ParserImpl:_delay_parsing(", 50, 583, ")" }
+2023-01-19 17:32:01 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:180: 	{ "function ParserImpl:delay_elapsed(", 583, ")" }
+2023-01-19 17:32:01 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:155: 	{ "function ParserImpl:_search(", 0, ")" }
+2023-01-19 17:32:02 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:125: 	{ "function ParserImpl:feed(", { "t" }, ")" }
+2023-01-19 17:32:02 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:127: 	"t"
+2023-01-19 17:32:02 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:144: 	{ "function ParserImpl:_delay_parsing(", 50, 584, ")" }
+2023-01-19 17:32:02 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:180: 	{ "function ParserImpl:delay_elapsed(", 584, ")" }
+2023-01-19 17:32:02 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:155: 	{ "function ParserImpl:_search(", 0, ")" }
+2023-01-19 17:32:02 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:125: 	{ "function ParserImpl:feed(", { "\r", "\27[?2004l\r" }, ")" }
+2023-01-19 17:32:02 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:127: 	"\r"
+2023-01-19 17:32:02 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:127: 	"\27[?2004l\r"
+2023-01-19 17:32:02 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:144: 	{ "function ParserImpl:_delay_parsing(", 50, 586, ")" }
+2023-01-19 17:32:02 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:125: 	{ "function ParserImpl:feed(", { "#0  \27[34m0x0000555555678138\27[m in \27[33mcmb\27[m (\27[36mx\27[m=std::vector of length 0, capacity 2, \27[36ml\27[m=std::vector of length 1, capacity 1 = {...}, \27[36mr\27[m=std::vector of length 1, capacity 1 = {...}) at \27[32m/home/lain/src/cp/sbor/regjan32/d5/b.cpp\27[m:21\r", "#1  \27[34m0x0000555555678c8e\27[m in \27[33mbuild\27[m () at \27[32m/home/lain/src/cp/sbor/regjan32/d5/b.cpp\27[m:32\r", "" }, ")" }
+2023-01-19 17:32:02 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:127: 	"#0  \27[34m0x0000555555678138\27[m in \27[33mcmb\27[m (\27[36mx\27[m=std::vector of length 0, capacity 2, \27[36ml\27[m=std::vector of length 1, capacity 1 = {...}, \27[36mr\27[m=std::vector of length 1, capacity 1 = {...}) at \27[32m/home/lain/src/cp/sbor/regjan32/d5/b.cpp\27[m:21\r"
+2023-01-19 17:32:02 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:127: 	"#1  \27[34m0x0000555555678c8e\27[m in \27[33mbuild\27[m () at \27[32m/home/lain/src/cp/sbor/regjan32/d5/b.cpp\27[m:32\r"
+2023-01-19 17:32:02 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:127: 	""
+2023-01-19 17:32:02 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:144: 	{ "function ParserImpl:_delay_parsing(", 50, 880, ")" }
+2023-01-19 17:32:02 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:125: 	{ "function ParserImpl:feed(", { "#2  \27[34m0x0000555555679eaa\27[m in \27[33msolve\27[m () at \27[32m/home/lain/src/cp/sbor/regjan32/d5/b.cpp\27[m:58\r", "#3  \27[34m0x000055555567a6bc\27[m in \27[33mmain\27[m () at \27[32m/home/lain/src/cp/sbor/regjan32/d5/b.cpp\27[m:73\r", "" }, ")" }
+2023-01-19 17:32:02 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:127: 	"#2  \27[34m0x0000555555679eaa\27[m in \27[33msolve\27[m () at \27[32m/home/lain/src/cp/sbor/regjan32/d5/b.cpp\27[m:58\r"
+2023-01-19 17:32:02 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:127: 	"#3  \27[34m0x000055555567a6bc\27[m in \27[33mmain\27[m () at \27[32m/home/lain/src/cp/sbor/regjan32/d5/b.cpp\27[m:73\r"
+2023-01-19 17:32:02 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:127: 	""
+2023-01-19 17:32:02 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:144: 	{ "function ParserImpl:_delay_parsing(", 50, 1044, ")" }
+2023-01-19 17:32:02 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:125: 	{ "function ParserImpl:feed(", { "\27[?2004h(gdb) \26\26\26" }, ")" }
+2023-01-19 17:32:02 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:127: 	"\27[?2004h(gdb) \26\26\26"
+2023-01-19 17:32:02 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:144: 	{ "function ParserImpl:_delay_parsing(", 50, 1053, ")" }
+2023-01-19 17:32:02 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:180: 	{ "function ParserImpl:delay_elapsed(", 586, ")" }
+2023-01-19 17:32:02 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:155: 	{ "function ParserImpl:_search(", 467, ")" }
+2023-01-19 17:32:02 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:180: 	{ "function ParserImpl:delay_elapsed(", 880, ")" }
+2023-01-19 17:32:02 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:155: 	{ "function ParserImpl:_search(", 173, ")" }
+2023-01-19 17:32:02 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:180: 	{ "function ParserImpl:delay_elapsed(", 1044, ")" }
+2023-01-19 17:32:02 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:155: 	{ "function ParserImpl:_search(", 9, ")" }
+2023-01-19 17:32:02 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:180: 	{ "function ParserImpl:delay_elapsed(", 1053, ")" }
+2023-01-19 17:32:02 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:155: 	{ "function ParserImpl:_search(", 0, ")" }
+2023-01-19 17:32:02 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:73: 	{ "function ParserImpl:_get_state_name()" }
+2023-01-19 17:32:02 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:168: 	"prev state: paused"
+2023-01-19 17:32:02 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:114: 	{ "function ParserImpl:_query_b()" }
+2023-01-19 17:32:02 [INFO] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:115: 	"_query_b"
+2023-01-19 17:32:02 [DEBUG] ...ack/packer/start/nvim-gdb/lua/nvimgdb/parser_actions.lua:38: 	{ "function ParserActions:query_breakpoints()" }
+2023-01-19 17:32:02 [DEBUG] ...nvim/site/pack/packer/start/nvim-gdb/lua/nvimgdb/win.lua:265: 	{ "function Win:query_breakpoints()" }
+2023-01-19 17:32:02 [DEBUG] ...nvim/site/pack/packer/start/nvim-gdb/lua/nvimgdb/win.lua:71: 	{ "function Win:_has_jump_win()" }
+2023-01-19 17:32:02 [DEBUG] ...te/pack/packer/start/nvim-gdb/lua/nvimgdb/breakpoint.lua:78: 	{ "function Breakpoint:query(", 1, "/home/lain/src/cp/sbor/regjan32/d5/b.cpp", ")" }
+2023-01-19 17:32:02 [INFO] ...te/pack/packer/start/nvim-gdb/lua/nvimgdb/breakpoint.lua:79: 	"Query breakpoints for /home/lain/src/cp/sbor/regjan32/d5/b.cpp"
+2023-01-19 17:32:02 [INFO] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/backend/gdb.lua:49: 	"Query breakpoints for /home/lain/src/cp/sbor/regjan32/d5/b.cpp"
+2023-01-19 17:32:02 [DEBUG] ...im/site/pack/packer/start/nvim-gdb/lua/nvimgdb/proxy.lua:62: 	{ "function Proxy:query(", "handle-command info breakpoints", ")" }
+2023-01-19 17:32:02 [INFO] ...im/site/pack/packer/start/nvim-gdb/lua/nvimgdb/proxy.lua:63: 	"Query handle-command info breakpoints"
+2023-01-19 17:32:02 [DEBUG] ...im/site/pack/packer/start/nvim-gdb/lua/nvimgdb/proxy.lua:44: 	{ "function Proxy:_ensure_connected()" }
+2023-01-19 17:32:02 [DEBUG] ...te/pack/packer/start/nvim-gdb/lua/nvimgdb/breakpoint.lua:33: 	{ "function Breakpoint:clear_signs()" }
+2023-01-19 17:32:02 [DEBUG] ...te/pack/packer/start/nvim-gdb/lua/nvimgdb/breakpoint.lua:44: 	{ "function Breakpoint:_set_signs(", 1, ")" }
+2023-01-19 17:32:02 [DEBUG] ...m/site/pack/packer/start/nvim-gdb/lua/nvimgdb/config.lua:183: 	{ "function Config:get(", "sign_breakpoint_priority", ")" }
+2023-01-19 17:32:02 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:73: 	{ "function ParserImpl:_get_state_name()" }
+2023-01-19 17:32:02 [INFO] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:170: 	"new state: paused"
+2023-01-19 17:32:02 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:155: 	{ "function ParserImpl:_search(", 0, ")" }
+2023-01-19 17:32:04 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:125: 	{ "function ParserImpl:feed(", { "p" }, ")" }
+2023-01-19 17:32:04 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:127: 	"p"
+2023-01-19 17:32:04 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:144: 	{ "function ParserImpl:_delay_parsing(", 50, 1054, ")" }
+2023-01-19 17:32:04 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:180: 	{ "function ParserImpl:delay_elapsed(", 1054, ")" }
+2023-01-19 17:32:04 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:155: 	{ "function ParserImpl:_search(", 0, ")" }
+2023-01-19 17:32:04 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:125: 	{ "function ParserImpl:feed(", { " " }, ")" }
+2023-01-19 17:32:05 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:127: 	" "
+2023-01-19 17:32:05 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:144: 	{ "function ParserImpl:_delay_parsing(", 50, 1055, ")" }
+2023-01-19 17:32:05 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:180: 	{ "function ParserImpl:delay_elapsed(", 1055, ")" }
+2023-01-19 17:32:05 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:155: 	{ "function ParserImpl:_search(", 0, ")" }
+2023-01-19 17:32:05 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:125: 	{ "function ParserImpl:feed(", { "l" }, ")" }
+2023-01-19 17:32:05 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:127: 	"l"
+2023-01-19 17:32:05 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:144: 	{ "function ParserImpl:_delay_parsing(", 50, 1056, ")" }
+2023-01-19 17:32:05 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:180: 	{ "function ParserImpl:delay_elapsed(", 1056, ")" }
+2023-01-19 17:32:05 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:155: 	{ "function ParserImpl:_search(", 0, ")" }
+2023-01-19 17:32:05 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:125: 	{ "function ParserImpl:feed(", { "p" }, ")" }
+2023-01-19 17:32:05 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:127: 	"p"
+2023-01-19 17:32:05 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:144: 	{ "function ParserImpl:_delay_parsing(", 50, 1057, ")" }
+2023-01-19 17:32:05 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:180: 	{ "function ParserImpl:delay_elapsed(", 1057, ")" }
+2023-01-19 17:32:05 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:155: 	{ "function ParserImpl:_search(", 0, ")" }
+2023-01-19 17:32:05 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:125: 	{ "function ParserImpl:feed(", { "\r", "\27[?2004l\r" }, ")" }
+2023-01-19 17:32:05 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:127: 	"\r"
+2023-01-19 17:32:05 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:127: 	"\27[?2004l\r"
+2023-01-19 17:32:05 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:144: 	{ "function ParserImpl:_delay_parsing(", 50, 1059, ")" }
+2023-01-19 17:32:05 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:125: 	{ "function ParserImpl:feed(", { "$1 = 0\r", "\27[?2004h(gdb) \26\26\26" }, ")" }
+2023-01-19 17:32:05 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:127: 	"$1 = 0\r"
+2023-01-19 17:32:05 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:127: 	"\27[?2004h(gdb) \26\26\26"
+2023-01-19 17:32:05 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:144: 	{ "function ParserImpl:_delay_parsing(", 50, 1075, ")" }
+2023-01-19 17:32:05 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:180: 	{ "function ParserImpl:delay_elapsed(", 1059, ")" }
+2023-01-19 17:32:05 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:155: 	{ "function ParserImpl:_search(", 16, ")" }
+2023-01-19 17:32:05 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:180: 	{ "function ParserImpl:delay_elapsed(", 1075, ")" }
+2023-01-19 17:32:05 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:155: 	{ "function ParserImpl:_search(", 0, ")" }
+2023-01-19 17:32:05 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:73: 	{ "function ParserImpl:_get_state_name()" }
+2023-01-19 17:32:05 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:168: 	"prev state: paused"
+2023-01-19 17:32:05 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:114: 	{ "function ParserImpl:_query_b()" }
+2023-01-19 17:32:05 [INFO] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:115: 	"_query_b"
+2023-01-19 17:32:05 [DEBUG] ...ack/packer/start/nvim-gdb/lua/nvimgdb/parser_actions.lua:38: 	{ "function ParserActions:query_breakpoints()" }
+2023-01-19 17:32:05 [DEBUG] ...nvim/site/pack/packer/start/nvim-gdb/lua/nvimgdb/win.lua:265: 	{ "function Win:query_breakpoints()" }
+2023-01-19 17:32:05 [DEBUG] ...nvim/site/pack/packer/start/nvim-gdb/lua/nvimgdb/win.lua:71: 	{ "function Win:_has_jump_win()" }
+2023-01-19 17:32:05 [DEBUG] ...te/pack/packer/start/nvim-gdb/lua/nvimgdb/breakpoint.lua:78: 	{ "function Breakpoint:query(", 1, "/home/lain/src/cp/sbor/regjan32/d5/b.cpp", ")" }
+2023-01-19 17:32:05 [INFO] ...te/pack/packer/start/nvim-gdb/lua/nvimgdb/breakpoint.lua:79: 	"Query breakpoints for /home/lain/src/cp/sbor/regjan32/d5/b.cpp"
+2023-01-19 17:32:05 [INFO] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/backend/gdb.lua:49: 	"Query breakpoints for /home/lain/src/cp/sbor/regjan32/d5/b.cpp"
+2023-01-19 17:32:05 [DEBUG] ...im/site/pack/packer/start/nvim-gdb/lua/nvimgdb/proxy.lua:62: 	{ "function Proxy:query(", "handle-command info breakpoints", ")" }
+2023-01-19 17:32:05 [INFO] ...im/site/pack/packer/start/nvim-gdb/lua/nvimgdb/proxy.lua:63: 	"Query handle-command info breakpoints"
+2023-01-19 17:32:05 [DEBUG] ...im/site/pack/packer/start/nvim-gdb/lua/nvimgdb/proxy.lua:44: 	{ "function Proxy:_ensure_connected()" }
+2023-01-19 17:32:05 [DEBUG] ...te/pack/packer/start/nvim-gdb/lua/nvimgdb/breakpoint.lua:33: 	{ "function Breakpoint:clear_signs()" }
+2023-01-19 17:32:05 [DEBUG] ...te/pack/packer/start/nvim-gdb/lua/nvimgdb/breakpoint.lua:44: 	{ "function Breakpoint:_set_signs(", 1, ")" }
+2023-01-19 17:32:05 [DEBUG] ...m/site/pack/packer/start/nvim-gdb/lua/nvimgdb/config.lua:183: 	{ "function Config:get(", "sign_breakpoint_priority", ")" }
+2023-01-19 17:32:05 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:73: 	{ "function ParserImpl:_get_state_name()" }
+2023-01-19 17:32:05 [INFO] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:170: 	"new state: paused"
+2023-01-19 17:32:05 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:155: 	{ "function ParserImpl:_search(", 0, ")" }
+2023-01-19 17:32:14 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:125: 	{ "function ParserImpl:feed(", { "p" }, ")" }
+2023-01-19 17:32:14 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:127: 	"p"
+2023-01-19 17:32:14 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:144: 	{ "function ParserImpl:_delay_parsing(", 50, 1076, ")" }
+2023-01-19 17:32:14 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:180: 	{ "function ParserImpl:delay_elapsed(", 1076, ")" }
+2023-01-19 17:32:14 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:155: 	{ "function ParserImpl:_search(", 0, ")" }
+2023-01-19 17:32:14 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:125: 	{ "function ParserImpl:feed(", { " " }, ")" }
+2023-01-19 17:32:14 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:127: 	" "
+2023-01-19 17:32:14 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:144: 	{ "function ParserImpl:_delay_parsing(", 50, 1077, ")" }
+2023-01-19 17:32:14 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:180: 	{ "function ParserImpl:delay_elapsed(", 1077, ")" }
+2023-01-19 17:32:14 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:155: 	{ "function ParserImpl:_search(", 0, ")" }
+2023-01-19 17:32:15 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:125: 	{ "function ParserImpl:feed(", { "l" }, ")" }
+2023-01-19 17:32:15 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:127: 	"l"
+2023-01-19 17:32:15 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:144: 	{ "function ParserImpl:_delay_parsing(", 50, 1078, ")" }
+2023-01-19 17:32:15 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:180: 	{ "function ParserImpl:delay_elapsed(", 1078, ")" }
+2023-01-19 17:32:15 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:155: 	{ "function ParserImpl:_search(", 0, ")" }
+2023-01-19 17:32:15 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:125: 	{ "function ParserImpl:feed(", { "\r", "\27[?2004l\r" }, ")" }
+2023-01-19 17:32:15 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:127: 	"\r"
+2023-01-19 17:32:15 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:127: 	"\27[?2004l\r"
+2023-01-19 17:32:15 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:144: 	{ "function ParserImpl:_delay_parsing(", 50, 1080, ")" }
+2023-01-19 17:32:15 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:125: 	{ "function ParserImpl:feed(", { "$2 = std::vector of length 1, capacity 1 = {1}\r", "\27[?2004h(gdb) \26\26\26" }, ")" }
+2023-01-19 17:32:15 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:127: 	"$2 = std::vector of length 1, capacity 1 = {1}\r"
+2023-01-19 17:32:15 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:127: 	"\27[?2004h(gdb) \26\26\26"
+2023-01-19 17:32:15 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:144: 	{ "function ParserImpl:_delay_parsing(", 50, 1136, ")" }
+2023-01-19 17:32:15 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:180: 	{ "function ParserImpl:delay_elapsed(", 1080, ")" }
+2023-01-19 17:32:15 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:155: 	{ "function ParserImpl:_search(", 56, ")" }
+2023-01-19 17:32:15 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:180: 	{ "function ParserImpl:delay_elapsed(", 1136, ")" }
+2023-01-19 17:32:15 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:155: 	{ "function ParserImpl:_search(", 0, ")" }
+2023-01-19 17:32:15 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:73: 	{ "function ParserImpl:_get_state_name()" }
+2023-01-19 17:32:15 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:168: 	"prev state: paused"
+2023-01-19 17:32:15 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:114: 	{ "function ParserImpl:_query_b()" }
+2023-01-19 17:32:15 [INFO] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:115: 	"_query_b"
+2023-01-19 17:32:15 [DEBUG] ...ack/packer/start/nvim-gdb/lua/nvimgdb/parser_actions.lua:38: 	{ "function ParserActions:query_breakpoints()" }
+2023-01-19 17:32:15 [DEBUG] ...nvim/site/pack/packer/start/nvim-gdb/lua/nvimgdb/win.lua:265: 	{ "function Win:query_breakpoints()" }
+2023-01-19 17:32:15 [DEBUG] ...nvim/site/pack/packer/start/nvim-gdb/lua/nvimgdb/win.lua:71: 	{ "function Win:_has_jump_win()" }
+2023-01-19 17:32:15 [DEBUG] ...te/pack/packer/start/nvim-gdb/lua/nvimgdb/breakpoint.lua:78: 	{ "function Breakpoint:query(", 1, "/home/lain/src/cp/sbor/regjan32/d5/b.cpp", ")" }
+2023-01-19 17:32:15 [INFO] ...te/pack/packer/start/nvim-gdb/lua/nvimgdb/breakpoint.lua:79: 	"Query breakpoints for /home/lain/src/cp/sbor/regjan32/d5/b.cpp"
+2023-01-19 17:32:15 [INFO] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/backend/gdb.lua:49: 	"Query breakpoints for /home/lain/src/cp/sbor/regjan32/d5/b.cpp"
+2023-01-19 17:32:15 [DEBUG] ...im/site/pack/packer/start/nvim-gdb/lua/nvimgdb/proxy.lua:62: 	{ "function Proxy:query(", "handle-command info breakpoints", ")" }
+2023-01-19 17:32:15 [INFO] ...im/site/pack/packer/start/nvim-gdb/lua/nvimgdb/proxy.lua:63: 	"Query handle-command info breakpoints"
+2023-01-19 17:32:15 [DEBUG] ...im/site/pack/packer/start/nvim-gdb/lua/nvimgdb/proxy.lua:44: 	{ "function Proxy:_ensure_connected()" }
+2023-01-19 17:32:15 [DEBUG] ...te/pack/packer/start/nvim-gdb/lua/nvimgdb/breakpoint.lua:33: 	{ "function Breakpoint:clear_signs()" }
+2023-01-19 17:32:15 [DEBUG] ...te/pack/packer/start/nvim-gdb/lua/nvimgdb/breakpoint.lua:44: 	{ "function Breakpoint:_set_signs(", 1, ")" }
+2023-01-19 17:32:15 [DEBUG] ...m/site/pack/packer/start/nvim-gdb/lua/nvimgdb/config.lua:183: 	{ "function Config:get(", "sign_breakpoint_priority", ")" }
+2023-01-19 17:32:15 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:73: 	{ "function ParserImpl:_get_state_name()" }
+2023-01-19 17:32:15 [INFO] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:170: 	"new state: paused"
+2023-01-19 17:32:15 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:155: 	{ "function ParserImpl:_search(", 0, ")" }
+2023-01-19 17:32:16 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:125: 	{ "function ParserImpl:feed(", { "p" }, ")" }
+2023-01-19 17:32:16 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:127: 	"p"
+2023-01-19 17:32:16 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:144: 	{ "function ParserImpl:_delay_parsing(", 50, 1137, ")" }
+2023-01-19 17:32:16 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:180: 	{ "function ParserImpl:delay_elapsed(", 1137, ")" }
+2023-01-19 17:32:16 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:155: 	{ "function ParserImpl:_search(", 0, ")" }
+2023-01-19 17:32:16 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:125: 	{ "function ParserImpl:feed(", { " " }, ")" }
+2023-01-19 17:32:16 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:127: 	" "
+2023-01-19 17:32:16 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:144: 	{ "function ParserImpl:_delay_parsing(", 50, 1138, ")" }
+2023-01-19 17:32:16 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:180: 	{ "function ParserImpl:delay_elapsed(", 1138, ")" }
+2023-01-19 17:32:16 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:155: 	{ "function ParserImpl:_search(", 0, ")" }
+2023-01-19 17:32:16 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:125: 	{ "function ParserImpl:feed(", { "r" }, ")" }
+2023-01-19 17:32:16 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:127: 	"r"
+2023-01-19 17:32:16 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:144: 	{ "function ParserImpl:_delay_parsing(", 50, 1139, ")" }
+2023-01-19 17:32:16 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:180: 	{ "function ParserImpl:delay_elapsed(", 1139, ")" }
+2023-01-19 17:32:16 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:155: 	{ "function ParserImpl:_search(", 0, ")" }
+2023-01-19 17:32:16 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:125: 	{ "function ParserImpl:feed(", { "\r", "\27[?2004l\r" }, ")" }
+2023-01-19 17:32:16 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:127: 	"\r"
+2023-01-19 17:32:16 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:127: 	"\27[?2004l\r"
+2023-01-19 17:32:16 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:144: 	{ "function ParserImpl:_delay_parsing(", 50, 1141, ")" }
+2023-01-19 17:32:16 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:125: 	{ "function ParserImpl:feed(", { "$3 = std::vector of length 1, capacity 1 = {1}\r", "\27[?2004h(gdb) \26\26\26" }, ")" }
+2023-01-19 17:32:16 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:127: 	"$3 = std::vector of length 1, capacity 1 = {1}\r"
+2023-01-19 17:32:16 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:127: 	"\27[?2004h(gdb) \26\26\26"
+2023-01-19 17:32:16 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:144: 	{ "function ParserImpl:_delay_parsing(", 50, 1197, ")" }
+2023-01-19 17:32:16 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:180: 	{ "function ParserImpl:delay_elapsed(", 1141, ")" }
+2023-01-19 17:32:16 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:155: 	{ "function ParserImpl:_search(", 56, ")" }
+2023-01-19 17:32:16 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:180: 	{ "function ParserImpl:delay_elapsed(", 1197, ")" }
+2023-01-19 17:32:16 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:155: 	{ "function ParserImpl:_search(", 0, ")" }
+2023-01-19 17:32:16 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:73: 	{ "function ParserImpl:_get_state_name()" }
+2023-01-19 17:32:16 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:168: 	"prev state: paused"
+2023-01-19 17:32:16 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:114: 	{ "function ParserImpl:_query_b()" }
+2023-01-19 17:32:16 [INFO] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:115: 	"_query_b"
+2023-01-19 17:32:16 [DEBUG] ...ack/packer/start/nvim-gdb/lua/nvimgdb/parser_actions.lua:38: 	{ "function ParserActions:query_breakpoints()" }
+2023-01-19 17:32:16 [DEBUG] ...nvim/site/pack/packer/start/nvim-gdb/lua/nvimgdb/win.lua:265: 	{ "function Win:query_breakpoints()" }
+2023-01-19 17:32:16 [DEBUG] ...nvim/site/pack/packer/start/nvim-gdb/lua/nvimgdb/win.lua:71: 	{ "function Win:_has_jump_win()" }
+2023-01-19 17:32:16 [DEBUG] ...te/pack/packer/start/nvim-gdb/lua/nvimgdb/breakpoint.lua:78: 	{ "function Breakpoint:query(", 1, "/home/lain/src/cp/sbor/regjan32/d5/b.cpp", ")" }
+2023-01-19 17:32:16 [INFO] ...te/pack/packer/start/nvim-gdb/lua/nvimgdb/breakpoint.lua:79: 	"Query breakpoints for /home/lain/src/cp/sbor/regjan32/d5/b.cpp"
+2023-01-19 17:32:16 [INFO] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/backend/gdb.lua:49: 	"Query breakpoints for /home/lain/src/cp/sbor/regjan32/d5/b.cpp"
+2023-01-19 17:32:16 [DEBUG] ...im/site/pack/packer/start/nvim-gdb/lua/nvimgdb/proxy.lua:62: 	{ "function Proxy:query(", "handle-command info breakpoints", ")" }
+2023-01-19 17:32:16 [INFO] ...im/site/pack/packer/start/nvim-gdb/lua/nvimgdb/proxy.lua:63: 	"Query handle-command info breakpoints"
+2023-01-19 17:32:16 [DEBUG] ...im/site/pack/packer/start/nvim-gdb/lua/nvimgdb/proxy.lua:44: 	{ "function Proxy:_ensure_connected()" }
+2023-01-19 17:32:16 [DEBUG] ...te/pack/packer/start/nvim-gdb/lua/nvimgdb/breakpoint.lua:33: 	{ "function Breakpoint:clear_signs()" }
+2023-01-19 17:32:16 [DEBUG] ...te/pack/packer/start/nvim-gdb/lua/nvimgdb/breakpoint.lua:44: 	{ "function Breakpoint:_set_signs(", 1, ")" }
+2023-01-19 17:32:16 [DEBUG] ...m/site/pack/packer/start/nvim-gdb/lua/nvimgdb/config.lua:183: 	{ "function Config:get(", "sign_breakpoint_priority", ")" }
+2023-01-19 17:32:16 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:73: 	{ "function ParserImpl:_get_state_name()" }
+2023-01-19 17:32:16 [INFO] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:170: 	"new state: paused"
+2023-01-19 17:32:16 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:155: 	{ "function ParserImpl:_search(", 0, ")" }
+2023-01-19 17:32:17 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:125: 	{ "function ParserImpl:feed(", { "p" }, ")" }
+2023-01-19 17:32:17 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:127: 	"p"
+2023-01-19 17:32:17 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:144: 	{ "function ParserImpl:_delay_parsing(", 50, 1198, ")" }
+2023-01-19 17:32:17 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:180: 	{ "function ParserImpl:delay_elapsed(", 1198, ")" }
+2023-01-19 17:32:17 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:155: 	{ "function ParserImpl:_search(", 0, ")" }
+2023-01-19 17:32:17 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:125: 	{ "function ParserImpl:feed(", { " " }, ")" }
+2023-01-19 17:32:17 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:127: 	" "
+2023-01-19 17:32:17 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:144: 	{ "function ParserImpl:_delay_parsing(", 50, 1199, ")" }
+2023-01-19 17:32:17 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:180: 	{ "function ParserImpl:delay_elapsed(", 1199, ")" }
+2023-01-19 17:32:17 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:155: 	{ "function ParserImpl:_search(", 0, ")" }
+2023-01-19 17:32:18 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:125: 	{ "function ParserImpl:feed(", { "r" }, ")" }
+2023-01-19 17:32:18 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:127: 	"r"
+2023-01-19 17:32:18 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:144: 	{ "function ParserImpl:_delay_parsing(", 50, 1200, ")" }
+2023-01-19 17:32:18 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:180: 	{ "function ParserImpl:delay_elapsed(", 1200, ")" }
+2023-01-19 17:32:18 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:155: 	{ "function ParserImpl:_search(", 0, ")" }
+2023-01-19 17:32:18 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:125: 	{ "function ParserImpl:feed(", { "p" }, ")" }
+2023-01-19 17:32:18 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:127: 	"p"
+2023-01-19 17:32:18 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:144: 	{ "function ParserImpl:_delay_parsing(", 50, 1201, ")" }
+2023-01-19 17:32:18 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:180: 	{ "function ParserImpl:delay_elapsed(", 1201, ")" }
+2023-01-19 17:32:18 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:155: 	{ "function ParserImpl:_search(", 0, ")" }
+2023-01-19 17:32:18 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:125: 	{ "function ParserImpl:feed(", { "\r", "\27[?2004l\r" }, ")" }
+2023-01-19 17:32:18 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:127: 	"\r"
+2023-01-19 17:32:18 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:127: 	"\27[?2004l\r"
+2023-01-19 17:32:18 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:144: 	{ "function ParserImpl:_delay_parsing(", 50, 1203, ")" }
+2023-01-19 17:32:18 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:125: 	{ "function ParserImpl:feed(", { "$4 = 0\r", "\27[?2004h(gdb) \26\26\26" }, ")" }
+2023-01-19 17:32:18 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:127: 	"$4 = 0\r"
+2023-01-19 17:32:18 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:127: 	"\27[?2004h(gdb) \26\26\26"
+2023-01-19 17:32:18 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:144: 	{ "function ParserImpl:_delay_parsing(", 50, 1219, ")" }
+2023-01-19 17:32:18 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:180: 	{ "function ParserImpl:delay_elapsed(", 1203, ")" }
+2023-01-19 17:32:18 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:155: 	{ "function ParserImpl:_search(", 16, ")" }
+2023-01-19 17:32:18 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:180: 	{ "function ParserImpl:delay_elapsed(", 1219, ")" }
+2023-01-19 17:32:18 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:155: 	{ "function ParserImpl:_search(", 0, ")" }
+2023-01-19 17:32:18 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:73: 	{ "function ParserImpl:_get_state_name()" }
+2023-01-19 17:32:18 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:168: 	"prev state: paused"
+2023-01-19 17:32:18 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:114: 	{ "function ParserImpl:_query_b()" }
+2023-01-19 17:32:18 [INFO] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:115: 	"_query_b"
+2023-01-19 17:32:18 [DEBUG] ...ack/packer/start/nvim-gdb/lua/nvimgdb/parser_actions.lua:38: 	{ "function ParserActions:query_breakpoints()" }
+2023-01-19 17:32:18 [DEBUG] ...nvim/site/pack/packer/start/nvim-gdb/lua/nvimgdb/win.lua:265: 	{ "function Win:query_breakpoints()" }
+2023-01-19 17:32:18 [DEBUG] ...nvim/site/pack/packer/start/nvim-gdb/lua/nvimgdb/win.lua:71: 	{ "function Win:_has_jump_win()" }
+2023-01-19 17:32:18 [DEBUG] ...te/pack/packer/start/nvim-gdb/lua/nvimgdb/breakpoint.lua:78: 	{ "function Breakpoint:query(", 1, "/home/lain/src/cp/sbor/regjan32/d5/b.cpp", ")" }
+2023-01-19 17:32:18 [INFO] ...te/pack/packer/start/nvim-gdb/lua/nvimgdb/breakpoint.lua:79: 	"Query breakpoints for /home/lain/src/cp/sbor/regjan32/d5/b.cpp"
+2023-01-19 17:32:18 [INFO] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/backend/gdb.lua:49: 	"Query breakpoints for /home/lain/src/cp/sbor/regjan32/d5/b.cpp"
+2023-01-19 17:32:18 [DEBUG] ...im/site/pack/packer/start/nvim-gdb/lua/nvimgdb/proxy.lua:62: 	{ "function Proxy:query(", "handle-command info breakpoints", ")" }
+2023-01-19 17:32:18 [INFO] ...im/site/pack/packer/start/nvim-gdb/lua/nvimgdb/proxy.lua:63: 	"Query handle-command info breakpoints"
+2023-01-19 17:32:18 [DEBUG] ...im/site/pack/packer/start/nvim-gdb/lua/nvimgdb/proxy.lua:44: 	{ "function Proxy:_ensure_connected()" }
+2023-01-19 17:32:18 [DEBUG] ...te/pack/packer/start/nvim-gdb/lua/nvimgdb/breakpoint.lua:33: 	{ "function Breakpoint:clear_signs()" }
+2023-01-19 17:32:18 [DEBUG] ...te/pack/packer/start/nvim-gdb/lua/nvimgdb/breakpoint.lua:44: 	{ "function Breakpoint:_set_signs(", 1, ")" }
+2023-01-19 17:32:18 [DEBUG] ...m/site/pack/packer/start/nvim-gdb/lua/nvimgdb/config.lua:183: 	{ "function Config:get(", "sign_breakpoint_priority", ")" }
+2023-01-19 17:32:18 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:73: 	{ "function ParserImpl:_get_state_name()" }
+2023-01-19 17:32:18 [INFO] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:170: 	"new state: paused"
+2023-01-19 17:32:18 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:155: 	{ "function ParserImpl:_search(", 0, ")" }
+2023-01-19 17:32:22 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:125: 	{ "function ParserImpl:feed(", { "p" }, ")" }
+2023-01-19 17:32:22 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:127: 	"p"
+2023-01-19 17:32:22 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:144: 	{ "function ParserImpl:_delay_parsing(", 50, 1220, ")" }
+2023-01-19 17:32:22 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:180: 	{ "function ParserImpl:delay_elapsed(", 1220, ")" }
+2023-01-19 17:32:22 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:155: 	{ "function ParserImpl:_search(", 0, ")" }
+2023-01-19 17:32:22 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:125: 	{ "function ParserImpl:feed(", { " " }, ")" }
+2023-01-19 17:32:22 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:127: 	" "
+2023-01-19 17:32:22 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:144: 	{ "function ParserImpl:_delay_parsing(", 50, 1221, ")" }
+2023-01-19 17:32:22 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:180: 	{ "function ParserImpl:delay_elapsed(", 1221, ")" }
+2023-01-19 17:32:22 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:155: 	{ "function ParserImpl:_search(", 0, ")" }
+2023-01-19 17:32:22 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:125: 	{ "function ParserImpl:feed(", { "l" }, ")" }
+2023-01-19 17:32:22 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:127: 	"l"
+2023-01-19 17:32:22 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:144: 	{ "function ParserImpl:_delay_parsing(", 50, 1222, ")" }
+2023-01-19 17:32:22 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:180: 	{ "function ParserImpl:delay_elapsed(", 1222, ")" }
+2023-01-19 17:32:22 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:155: 	{ "function ParserImpl:_search(", 0, ")" }
+2023-01-19 17:32:22 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:125: 	{ "function ParserImpl:feed(", { "[" }, ")" }
+2023-01-19 17:32:22 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:127: 	"["
+2023-01-19 17:32:22 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:144: 	{ "function ParserImpl:_delay_parsing(", 50, 1223, ")" }
+2023-01-19 17:32:22 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:180: 	{ "function ParserImpl:delay_elapsed(", 1223, ")" }
+2023-01-19 17:32:22 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:155: 	{ "function ParserImpl:_search(", 0, ")" }
+2023-01-19 17:32:23 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:125: 	{ "function ParserImpl:feed(", { "\b\27[K" }, ")" }
+2023-01-19 17:32:23 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:127: 	"\b\27[K"
+2023-01-19 17:32:23 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:144: 	{ "function ParserImpl:_delay_parsing(", 50, 1224, ")" }
+2023-01-19 17:32:23 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:180: 	{ "function ParserImpl:delay_elapsed(", 1224, ")" }
+2023-01-19 17:32:23 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:155: 	{ "function ParserImpl:_search(", 0, ")" }
+2023-01-19 17:32:23 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:125: 	{ "function ParserImpl:feed(", { "\b\27[K" }, ")" }
+2023-01-19 17:32:23 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:127: 	"\b\27[K"
+2023-01-19 17:32:23 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:144: 	{ "function ParserImpl:_delay_parsing(", 50, 1225, ")" }
+2023-01-19 17:32:23 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:180: 	{ "function ParserImpl:delay_elapsed(", 1225, ")" }
+2023-01-19 17:32:23 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:155: 	{ "function ParserImpl:_search(", 0, ")" }
+2023-01-19 17:32:23 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:125: 	{ "function ParserImpl:feed(", { "\b\27[K" }, ")" }
+2023-01-19 17:32:23 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:127: 	"\b\27[K"
+2023-01-19 17:32:23 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:144: 	{ "function ParserImpl:_delay_parsing(", 50, 1226, ")" }
+2023-01-19 17:32:23 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:180: 	{ "function ParserImpl:delay_elapsed(", 1226, ")" }
+2023-01-19 17:32:23 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:155: 	{ "function ParserImpl:_search(", 0, ")" }
+2023-01-19 17:32:23 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:125: 	{ "function ParserImpl:feed(", { "\b\27[K" }, ")" }
+2023-01-19 17:32:23 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:127: 	"\b\27[K"
+2023-01-19 17:32:23 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:144: 	{ "function ParserImpl:_delay_parsing(", 50, 1227, ")" }
+2023-01-19 17:32:23 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:180: 	{ "function ParserImpl:delay_elapsed(", 1227, ")" }
+2023-01-19 17:32:23 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:155: 	{ "function ParserImpl:_search(", 0, ")" }
+2023-01-19 17:32:23 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:125: 	{ "function ParserImpl:feed(", { "\a" }, ")" }
+2023-01-19 17:32:23 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:127: 	"\a"
+2023-01-19 17:32:23 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:144: 	{ "function ParserImpl:_delay_parsing(", 50, 1228, ")" }
+2023-01-19 17:32:23 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:180: 	{ "function ParserImpl:delay_elapsed(", 1228, ")" }
+2023-01-19 17:32:23 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:155: 	{ "function ParserImpl:_search(", 0, ")" }
+2023-01-19 17:32:26 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:125: 	{ "function ParserImpl:feed(", { "j" }, ")" }
+2023-01-19 17:32:26 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:127: 	"j"
+2023-01-19 17:32:26 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:144: 	{ "function ParserImpl:_delay_parsing(", 50, 1229, ")" }
+2023-01-19 17:32:26 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:180: 	{ "function ParserImpl:delay_elapsed(", 1229, ")" }
+2023-01-19 17:32:26 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:155: 	{ "function ParserImpl:_search(", 0, ")" }
+2023-01-19 17:32:27 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:125: 	{ "function ParserImpl:feed(", { "\b\27[K" }, ")" }
+2023-01-19 17:32:27 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:127: 	"\b\27[K"
+2023-01-19 17:32:27 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:144: 	{ "function ParserImpl:_delay_parsing(", 50, 1230, ")" }
+2023-01-19 17:32:27 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:180: 	{ "function ParserImpl:delay_elapsed(", 1230, ")" }
+2023-01-19 17:32:27 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:155: 	{ "function ParserImpl:_search(", 0, ")" }
+2023-01-19 17:32:28 [DEBUG] ...nvim/site/pack/packer/start/nvim-gdb/lua/nvimgdb/app.lua:267: 	{ "function App:on_buf_leave()" }
+2023-01-19 17:32:28 [DEBUG] ...m/site/pack/packer/start/nvim-gdb/lua/nvimgdb/config.lua:192: 	{ "function Config:get_or(", "jump_bottom_gdb_buf", false, ")" }
+2023-01-19 17:32:28 [DEBUG] ...m/site/pack/packer/start/nvim-gdb/lua/nvimgdb/config.lua:183: 	{ "function Config:get(", "jump_bottom_gdb_buf", ")" }
+2023-01-19 17:32:28 [DEBUG] ...nvim/site/pack/packer/start/nvim-gdb/lua/nvimgdb/app.lua:256: 	{ "function App:on_buf_enter()" }
+2023-01-19 17:32:28 [DEBUG] ...nvim/site/pack/packer/start/nvim-gdb/lua/nvimgdb/win.lua:84: 	{ "function Win:is_jump_window_active()" }
+2023-01-19 17:32:28 [DEBUG] ...nvim/site/pack/packer/start/nvim-gdb/lua/nvimgdb/win.lua:71: 	{ "function Win:_has_jump_win()" }
+2023-01-19 17:32:28 [DEBUG] .../site/pack/packer/start/nvim-gdb/lua/nvimgdb/keymaps.lua:106: 	{ "function Keymaps:dispatch_set()" }
+2023-01-19 17:32:28 [DEBUG] .../site/pack/packer/start/nvim-gdb/lua/nvimgdb/keymaps.lua:98: 	{ "function Keymaps:_dispatch(", "set_keymaps", ")" }
+2023-01-19 17:32:28 [DEBUG] ...m/site/pack/packer/start/nvim-gdb/lua/nvimgdb/config.lua:192: 	{ "function Config:get_or(", "set_keymaps", <function 1>, ")" }
+2023-01-19 17:32:28 [DEBUG] ...m/site/pack/packer/start/nvim-gdb/lua/nvimgdb/config.lua:183: 	{ "function Config:get(", "set_keymaps", ")" }
+2023-01-19 17:32:28 [DEBUG] .../site/pack/packer/start/nvim-gdb/lua/nvimgdb/keymaps.lua:44: 	{ "function Keymaps:set()" }
+2023-01-19 17:32:28 [DEBUG] ...m/site/pack/packer/start/nvim-gdb/lua/nvimgdb/config.lua:183: 	{ "function Config:get(", "key_until", ")" }
+2023-01-19 17:32:28 [DEBUG] ...m/site/pack/packer/start/nvim-gdb/lua/nvimgdb/config.lua:183: 	{ "function Config:get(", "key_continue", ")" }
+2023-01-19 17:32:28 [DEBUG] ...m/site/pack/packer/start/nvim-gdb/lua/nvimgdb/config.lua:183: 	{ "function Config:get(", "key_next", ")" }
+2023-01-19 17:32:28 [DEBUG] ...m/site/pack/packer/start/nvim-gdb/lua/nvimgdb/config.lua:183: 	{ "function Config:get(", "key_step", ")" }
+2023-01-19 17:32:28 [DEBUG] ...m/site/pack/packer/start/nvim-gdb/lua/nvimgdb/config.lua:183: 	{ "function Config:get(", "key_finish", ")" }
+2023-01-19 17:32:28 [DEBUG] ...m/site/pack/packer/start/nvim-gdb/lua/nvimgdb/config.lua:183: 	{ "function Config:get(", "key_breakpoint", ")" }
+2023-01-19 17:32:28 [DEBUG] ...m/site/pack/packer/start/nvim-gdb/lua/nvimgdb/config.lua:183: 	{ "function Config:get(", "key_frameup", ")" }
+2023-01-19 17:32:28 [DEBUG] ...m/site/pack/packer/start/nvim-gdb/lua/nvimgdb/config.lua:183: 	{ "function Config:get(", "key_framedown", ")" }
+2023-01-19 17:32:28 [DEBUG] ...m/site/pack/packer/start/nvim-gdb/lua/nvimgdb/config.lua:183: 	{ "function Config:get(", "key_eval", ")" }
+2023-01-19 17:32:28 [DEBUG] ...m/site/pack/packer/start/nvim-gdb/lua/nvimgdb/config.lua:183: 	{ "function Config:get(", "key_eval", ")" }
+2023-01-19 17:32:28 [DEBUG] ...m/site/pack/packer/start/nvim-gdb/lua/nvimgdb/config.lua:183: 	{ "function Config:get(", "key_quit", ")" }
+2023-01-19 17:32:28 [DEBUG] ...nvim/site/pack/packer/start/nvim-gdb/lua/nvimgdb/win.lua:265: 	{ "function Win:query_breakpoints()" }
+2023-01-19 17:32:28 [DEBUG] ...nvim/site/pack/packer/start/nvim-gdb/lua/nvimgdb/win.lua:71: 	{ "function Win:_has_jump_win()" }
+2023-01-19 17:32:28 [DEBUG] ...te/pack/packer/start/nvim-gdb/lua/nvimgdb/breakpoint.lua:78: 	{ "function Breakpoint:query(", 1, "/home/lain/src/cp/sbor/regjan32/d5/b.cpp", ")" }
+2023-01-19 17:32:28 [INFO] ...te/pack/packer/start/nvim-gdb/lua/nvimgdb/breakpoint.lua:79: 	"Query breakpoints for /home/lain/src/cp/sbor/regjan32/d5/b.cpp"
+2023-01-19 17:32:28 [INFO] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/backend/gdb.lua:49: 	"Query breakpoints for /home/lain/src/cp/sbor/regjan32/d5/b.cpp"
+2023-01-19 17:32:28 [DEBUG] ...im/site/pack/packer/start/nvim-gdb/lua/nvimgdb/proxy.lua:62: 	{ "function Proxy:query(", "handle-command info breakpoints", ")" }
+2023-01-19 17:32:28 [INFO] ...im/site/pack/packer/start/nvim-gdb/lua/nvimgdb/proxy.lua:63: 	"Query handle-command info breakpoints"
+2023-01-19 17:32:28 [DEBUG] ...im/site/pack/packer/start/nvim-gdb/lua/nvimgdb/proxy.lua:44: 	{ "function Proxy:_ensure_connected()" }
+2023-01-19 17:32:28 [DEBUG] ...te/pack/packer/start/nvim-gdb/lua/nvimgdb/breakpoint.lua:33: 	{ "function Breakpoint:clear_signs()" }
+2023-01-19 17:32:28 [DEBUG] ...te/pack/packer/start/nvim-gdb/lua/nvimgdb/breakpoint.lua:44: 	{ "function Breakpoint:_set_signs(", 1, ")" }
+2023-01-19 17:32:28 [DEBUG] ...m/site/pack/packer/start/nvim-gdb/lua/nvimgdb/config.lua:183: 	{ "function Config:get(", "sign_breakpoint_priority", ")" }
+2023-01-19 17:32:51 [DEBUG] ...nvim/site/pack/packer/start/nvim-gdb/lua/nvimgdb/app.lua:267: 	{ "function App:on_buf_leave()" }
+2023-01-19 17:32:51 [DEBUG] ...nvim/site/pack/packer/start/nvim-gdb/lua/nvimgdb/win.lua:84: 	{ "function Win:is_jump_window_active()" }
+2023-01-19 17:32:51 [DEBUG] ...nvim/site/pack/packer/start/nvim-gdb/lua/nvimgdb/win.lua:71: 	{ "function Win:_has_jump_win()" }
+2023-01-19 17:32:51 [DEBUG] .../site/pack/packer/start/nvim-gdb/lua/nvimgdb/keymaps.lua:112: 	{ "function Keymaps:dispatch_unset()" }
+2023-01-19 17:32:51 [DEBUG] .../site/pack/packer/start/nvim-gdb/lua/nvimgdb/keymaps.lua:98: 	{ "function Keymaps:_dispatch(", "unset_keymaps", ")" }
+2023-01-19 17:32:51 [DEBUG] ...m/site/pack/packer/start/nvim-gdb/lua/nvimgdb/config.lua:192: 	{ "function Config:get_or(", "unset_keymaps", <function 1>, ")" }
+2023-01-19 17:32:51 [DEBUG] ...m/site/pack/packer/start/nvim-gdb/lua/nvimgdb/config.lua:183: 	{ "function Config:get(", "unset_keymaps", ")" }
+2023-01-19 17:32:51 [DEBUG] .../site/pack/packer/start/nvim-gdb/lua/nvimgdb/keymaps.lua:62: 	{ "function Keymaps:unset()" }
+2023-01-19 17:32:51 [DEBUG] ...m/site/pack/packer/start/nvim-gdb/lua/nvimgdb/config.lua:183: 	{ "function Config:get(", "key_until", ")" }
+2023-01-19 17:32:51 [DEBUG] .../site/pack/packer/start/nvim-gdb/lua/nvimgdb/keymaps.lua:66: 	{ "keystroke", "<f4>" }
+2023-01-19 17:32:51 [DEBUG] ...m/site/pack/packer/start/nvim-gdb/lua/nvimgdb/config.lua:183: 	{ "function Config:get(", "key_continue", ")" }
+2023-01-19 17:32:51 [DEBUG] .../site/pack/packer/start/nvim-gdb/lua/nvimgdb/keymaps.lua:66: 	{ "keystroke", "<f5>" }
+2023-01-19 17:32:51 [DEBUG] ...m/site/pack/packer/start/nvim-gdb/lua/nvimgdb/config.lua:183: 	{ "function Config:get(", "key_next", ")" }
+2023-01-19 17:32:51 [DEBUG] .../site/pack/packer/start/nvim-gdb/lua/nvimgdb/keymaps.lua:66: 	{ "keystroke", "<f10>" }
+2023-01-19 17:32:51 [DEBUG] ...m/site/pack/packer/start/nvim-gdb/lua/nvimgdb/config.lua:183: 	{ "function Config:get(", "key_step", ")" }
+2023-01-19 17:32:51 [DEBUG] .../site/pack/packer/start/nvim-gdb/lua/nvimgdb/keymaps.lua:66: 	{ "keystroke", "<f11>" }
+2023-01-19 17:32:51 [DEBUG] ...m/site/pack/packer/start/nvim-gdb/lua/nvimgdb/config.lua:183: 	{ "function Config:get(", "key_finish", ")" }
+2023-01-19 17:32:51 [DEBUG] .../site/pack/packer/start/nvim-gdb/lua/nvimgdb/keymaps.lua:66: 	{ "keystroke", "<f12>" }
+2023-01-19 17:32:51 [DEBUG] ...m/site/pack/packer/start/nvim-gdb/lua/nvimgdb/config.lua:183: 	{ "function Config:get(", "key_breakpoint", ")" }
+2023-01-19 17:32:51 [DEBUG] .../site/pack/packer/start/nvim-gdb/lua/nvimgdb/keymaps.lua:66: 	{ "keystroke", "<f8>" }
+2023-01-19 17:32:51 [DEBUG] ...m/site/pack/packer/start/nvim-gdb/lua/nvimgdb/config.lua:183: 	{ "function Config:get(", "key_frameup", ")" }
+2023-01-19 17:32:51 [DEBUG] .../site/pack/packer/start/nvim-gdb/lua/nvimgdb/keymaps.lua:66: 	{ "keystroke", "<c-p>" }
+2023-01-19 17:32:51 [DEBUG] ...m/site/pack/packer/start/nvim-gdb/lua/nvimgdb/config.lua:183: 	{ "function Config:get(", "key_framedown", ")" }
+2023-01-19 17:32:51 [DEBUG] .../site/pack/packer/start/nvim-gdb/lua/nvimgdb/keymaps.lua:66: 	{ "keystroke", "<c-n>" }
+2023-01-19 17:32:51 [DEBUG] ...m/site/pack/packer/start/nvim-gdb/lua/nvimgdb/config.lua:183: 	{ "function Config:get(", "key_eval", ")" }
+2023-01-19 17:32:51 [DEBUG] .../site/pack/packer/start/nvim-gdb/lua/nvimgdb/keymaps.lua:66: 	{ "keystroke", "<f9>" }
+2023-01-19 17:32:51 [DEBUG] ...m/site/pack/packer/start/nvim-gdb/lua/nvimgdb/config.lua:183: 	{ "function Config:get(", "key_eval", ")" }
+2023-01-19 17:32:51 [DEBUG] .../site/pack/packer/start/nvim-gdb/lua/nvimgdb/keymaps.lua:66: 	{ "keystroke", "<f9>" }
+2023-01-19 17:32:51 [DEBUG] ...m/site/pack/packer/start/nvim-gdb/lua/nvimgdb/config.lua:183: 	{ "function Config:get(", "key_quit", ")" }
+2023-01-19 17:32:51 [DEBUG] ...nvim/site/pack/packer/start/nvim-gdb/lua/nvimgdb/app.lua:256: 	{ "function App:on_buf_enter()" }
+2023-01-19 17:33:26 [DEBUG] ...nvim/site/pack/packer/start/nvim-gdb/lua/nvimgdb/app.lua:267: 	{ "function App:on_buf_leave()" }
+2023-01-19 17:33:26 [DEBUG] ...m/site/pack/packer/start/nvim-gdb/lua/nvimgdb/config.lua:192: 	{ "function Config:get_or(", "jump_bottom_gdb_buf", false, ")" }
+2023-01-19 17:33:26 [DEBUG] ...m/site/pack/packer/start/nvim-gdb/lua/nvimgdb/config.lua:183: 	{ "function Config:get(", "jump_bottom_gdb_buf", ")" }
+2023-01-19 17:33:26 [DEBUG] ...nvim/site/pack/packer/start/nvim-gdb/lua/nvimgdb/app.lua:256: 	{ "function App:on_buf_enter()" }
+2023-01-19 17:33:26 [DEBUG] ...nvim/site/pack/packer/start/nvim-gdb/lua/nvimgdb/win.lua:84: 	{ "function Win:is_jump_window_active()" }
+2023-01-19 17:33:26 [DEBUG] ...nvim/site/pack/packer/start/nvim-gdb/lua/nvimgdb/win.lua:71: 	{ "function Win:_has_jump_win()" }
+2023-01-19 17:33:26 [DEBUG] .../site/pack/packer/start/nvim-gdb/lua/nvimgdb/keymaps.lua:106: 	{ "function Keymaps:dispatch_set()" }
+2023-01-19 17:33:26 [DEBUG] .../site/pack/packer/start/nvim-gdb/lua/nvimgdb/keymaps.lua:98: 	{ "function Keymaps:_dispatch(", "set_keymaps", ")" }
+2023-01-19 17:33:26 [DEBUG] ...m/site/pack/packer/start/nvim-gdb/lua/nvimgdb/config.lua:192: 	{ "function Config:get_or(", "set_keymaps", <function 1>, ")" }
+2023-01-19 17:33:26 [DEBUG] ...m/site/pack/packer/start/nvim-gdb/lua/nvimgdb/config.lua:183: 	{ "function Config:get(", "set_keymaps", ")" }
+2023-01-19 17:33:26 [DEBUG] .../site/pack/packer/start/nvim-gdb/lua/nvimgdb/keymaps.lua:44: 	{ "function Keymaps:set()" }
+2023-01-19 17:33:26 [DEBUG] ...m/site/pack/packer/start/nvim-gdb/lua/nvimgdb/config.lua:183: 	{ "function Config:get(", "key_until", ")" }
+2023-01-19 17:33:26 [DEBUG] ...m/site/pack/packer/start/nvim-gdb/lua/nvimgdb/config.lua:183: 	{ "function Config:get(", "key_continue", ")" }
+2023-01-19 17:33:26 [DEBUG] ...m/site/pack/packer/start/nvim-gdb/lua/nvimgdb/config.lua:183: 	{ "function Config:get(", "key_next", ")" }
+2023-01-19 17:33:26 [DEBUG] ...m/site/pack/packer/start/nvim-gdb/lua/nvimgdb/config.lua:183: 	{ "function Config:get(", "key_step", ")" }
+2023-01-19 17:33:26 [DEBUG] ...m/site/pack/packer/start/nvim-gdb/lua/nvimgdb/config.lua:183: 	{ "function Config:get(", "key_finish", ")" }
+2023-01-19 17:33:26 [DEBUG] ...m/site/pack/packer/start/nvim-gdb/lua/nvimgdb/config.lua:183: 	{ "function Config:get(", "key_breakpoint", ")" }
+2023-01-19 17:33:26 [DEBUG] ...m/site/pack/packer/start/nvim-gdb/lua/nvimgdb/config.lua:183: 	{ "function Config:get(", "key_frameup", ")" }
+2023-01-19 17:33:26 [DEBUG] ...m/site/pack/packer/start/nvim-gdb/lua/nvimgdb/config.lua:183: 	{ "function Config:get(", "key_framedown", ")" }
+2023-01-19 17:33:26 [DEBUG] ...m/site/pack/packer/start/nvim-gdb/lua/nvimgdb/config.lua:183: 	{ "function Config:get(", "key_eval", ")" }
+2023-01-19 17:33:26 [DEBUG] ...m/site/pack/packer/start/nvim-gdb/lua/nvimgdb/config.lua:183: 	{ "function Config:get(", "key_eval", ")" }
+2023-01-19 17:33:26 [DEBUG] ...m/site/pack/packer/start/nvim-gdb/lua/nvimgdb/config.lua:183: 	{ "function Config:get(", "key_quit", ")" }
+2023-01-19 17:33:26 [DEBUG] ...nvim/site/pack/packer/start/nvim-gdb/lua/nvimgdb/win.lua:265: 	{ "function Win:query_breakpoints()" }
+2023-01-19 17:33:26 [DEBUG] ...nvim/site/pack/packer/start/nvim-gdb/lua/nvimgdb/win.lua:71: 	{ "function Win:_has_jump_win()" }
+2023-01-19 17:33:26 [DEBUG] ...te/pack/packer/start/nvim-gdb/lua/nvimgdb/breakpoint.lua:78: 	{ "function Breakpoint:query(", 1, "/home/lain/src/cp/sbor/regjan32/d5/b.cpp", ")" }
+2023-01-19 17:33:26 [INFO] ...te/pack/packer/start/nvim-gdb/lua/nvimgdb/breakpoint.lua:79: 	"Query breakpoints for /home/lain/src/cp/sbor/regjan32/d5/b.cpp"
+2023-01-19 17:33:26 [INFO] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/backend/gdb.lua:49: 	"Query breakpoints for /home/lain/src/cp/sbor/regjan32/d5/b.cpp"
+2023-01-19 17:33:26 [DEBUG] ...im/site/pack/packer/start/nvim-gdb/lua/nvimgdb/proxy.lua:62: 	{ "function Proxy:query(", "handle-command info breakpoints", ")" }
+2023-01-19 17:33:26 [INFO] ...im/site/pack/packer/start/nvim-gdb/lua/nvimgdb/proxy.lua:63: 	"Query handle-command info breakpoints"
+2023-01-19 17:33:26 [DEBUG] ...im/site/pack/packer/start/nvim-gdb/lua/nvimgdb/proxy.lua:44: 	{ "function Proxy:_ensure_connected()" }
+2023-01-19 17:33:26 [DEBUG] ...te/pack/packer/start/nvim-gdb/lua/nvimgdb/breakpoint.lua:33: 	{ "function Breakpoint:clear_signs()" }
+2023-01-19 17:33:26 [DEBUG] ...te/pack/packer/start/nvim-gdb/lua/nvimgdb/breakpoint.lua:44: 	{ "function Breakpoint:_set_signs(", 1, ")" }
+2023-01-19 17:33:26 [DEBUG] ...m/site/pack/packer/start/nvim-gdb/lua/nvimgdb/config.lua:183: 	{ "function Config:get(", "sign_breakpoint_priority", ")" }
+2023-01-19 17:34:16 [DEBUG] ...nvim/site/pack/packer/start/nvim-gdb/lua/nvimgdb/app.lua:267: 	{ "function App:on_buf_leave()" }
+2023-01-19 17:34:16 [DEBUG] ...nvim/site/pack/packer/start/nvim-gdb/lua/nvimgdb/win.lua:84: 	{ "function Win:is_jump_window_active()" }
+2023-01-19 17:34:16 [DEBUG] ...nvim/site/pack/packer/start/nvim-gdb/lua/nvimgdb/win.lua:71: 	{ "function Win:_has_jump_win()" }
+2023-01-19 17:34:16 [DEBUG] .../site/pack/packer/start/nvim-gdb/lua/nvimgdb/keymaps.lua:112: 	{ "function Keymaps:dispatch_unset()" }
+2023-01-19 17:34:16 [DEBUG] .../site/pack/packer/start/nvim-gdb/lua/nvimgdb/keymaps.lua:98: 	{ "function Keymaps:_dispatch(", "unset_keymaps", ")" }
+2023-01-19 17:34:16 [DEBUG] ...m/site/pack/packer/start/nvim-gdb/lua/nvimgdb/config.lua:192: 	{ "function Config:get_or(", "unset_keymaps", <function 1>, ")" }
+2023-01-19 17:34:16 [DEBUG] ...m/site/pack/packer/start/nvim-gdb/lua/nvimgdb/config.lua:183: 	{ "function Config:get(", "unset_keymaps", ")" }
+2023-01-19 17:34:16 [DEBUG] .../site/pack/packer/start/nvim-gdb/lua/nvimgdb/keymaps.lua:62: 	{ "function Keymaps:unset()" }
+2023-01-19 17:34:16 [DEBUG] ...m/site/pack/packer/start/nvim-gdb/lua/nvimgdb/config.lua:183: 	{ "function Config:get(", "key_until", ")" }
+2023-01-19 17:34:16 [DEBUG] .../site/pack/packer/start/nvim-gdb/lua/nvimgdb/keymaps.lua:66: 	{ "keystroke", "<f4>" }
+2023-01-19 17:34:16 [DEBUG] ...m/site/pack/packer/start/nvim-gdb/lua/nvimgdb/config.lua:183: 	{ "function Config:get(", "key_continue", ")" }
+2023-01-19 17:34:16 [DEBUG] .../site/pack/packer/start/nvim-gdb/lua/nvimgdb/keymaps.lua:66: 	{ "keystroke", "<f5>" }
+2023-01-19 17:34:16 [DEBUG] ...m/site/pack/packer/start/nvim-gdb/lua/nvimgdb/config.lua:183: 	{ "function Config:get(", "key_next", ")" }
+2023-01-19 17:34:16 [DEBUG] .../site/pack/packer/start/nvim-gdb/lua/nvimgdb/keymaps.lua:66: 	{ "keystroke", "<f10>" }
+2023-01-19 17:34:16 [DEBUG] ...m/site/pack/packer/start/nvim-gdb/lua/nvimgdb/config.lua:183: 	{ "function Config:get(", "key_step", ")" }
+2023-01-19 17:34:16 [DEBUG] .../site/pack/packer/start/nvim-gdb/lua/nvimgdb/keymaps.lua:66: 	{ "keystroke", "<f11>" }
+2023-01-19 17:34:16 [DEBUG] ...m/site/pack/packer/start/nvim-gdb/lua/nvimgdb/config.lua:183: 	{ "function Config:get(", "key_finish", ")" }
+2023-01-19 17:34:16 [DEBUG] .../site/pack/packer/start/nvim-gdb/lua/nvimgdb/keymaps.lua:66: 	{ "keystroke", "<f12>" }
+2023-01-19 17:34:16 [DEBUG] ...m/site/pack/packer/start/nvim-gdb/lua/nvimgdb/config.lua:183: 	{ "function Config:get(", "key_breakpoint", ")" }
+2023-01-19 17:34:16 [DEBUG] .../site/pack/packer/start/nvim-gdb/lua/nvimgdb/keymaps.lua:66: 	{ "keystroke", "<f8>" }
+2023-01-19 17:34:16 [DEBUG] ...m/site/pack/packer/start/nvim-gdb/lua/nvimgdb/config.lua:183: 	{ "function Config:get(", "key_frameup", ")" }
+2023-01-19 17:34:16 [DEBUG] .../site/pack/packer/start/nvim-gdb/lua/nvimgdb/keymaps.lua:66: 	{ "keystroke", "<c-p>" }
+2023-01-19 17:34:16 [DEBUG] ...m/site/pack/packer/start/nvim-gdb/lua/nvimgdb/config.lua:183: 	{ "function Config:get(", "key_framedown", ")" }
+2023-01-19 17:34:16 [DEBUG] .../site/pack/packer/start/nvim-gdb/lua/nvimgdb/keymaps.lua:66: 	{ "keystroke", "<c-n>" }
+2023-01-19 17:34:16 [DEBUG] ...m/site/pack/packer/start/nvim-gdb/lua/nvimgdb/config.lua:183: 	{ "function Config:get(", "key_eval", ")" }
+2023-01-19 17:34:16 [DEBUG] .../site/pack/packer/start/nvim-gdb/lua/nvimgdb/keymaps.lua:66: 	{ "keystroke", "<f9>" }
+2023-01-19 17:34:16 [DEBUG] ...m/site/pack/packer/start/nvim-gdb/lua/nvimgdb/config.lua:183: 	{ "function Config:get(", "key_eval", ")" }
+2023-01-19 17:34:16 [DEBUG] .../site/pack/packer/start/nvim-gdb/lua/nvimgdb/keymaps.lua:66: 	{ "keystroke", "<f9>" }
+2023-01-19 17:34:16 [DEBUG] ...m/site/pack/packer/start/nvim-gdb/lua/nvimgdb/config.lua:183: 	{ "function Config:get(", "key_quit", ")" }
+2023-01-19 17:34:16 [DEBUG] ...nvim/site/pack/packer/start/nvim-gdb/lua/nvimgdb/app.lua:256: 	{ "function App:on_buf_enter()" }
+2023-01-19 17:34:16 [DEBUG] ...nvim/site/pack/packer/start/nvim-gdb/lua/nvimgdb/win.lua:84: 	{ "function Win:is_jump_window_active()" }
+2023-01-19 17:34:16 [DEBUG] ...nvim/site/pack/packer/start/nvim-gdb/lua/nvimgdb/win.lua:71: 	{ "function Win:_has_jump_win()" }
+2023-01-19 17:34:16 [DEBUG] ...nvim/site/pack/packer/start/nvim-gdb/lua/nvimgdb/app.lua:267: 	{ "function App:on_buf_leave()" }
+2023-01-19 17:34:16 [DEBUG] ...nvim/site/pack/packer/start/nvim-gdb/lua/nvimgdb/win.lua:84: 	{ "function Win:is_jump_window_active()" }
+2023-01-19 17:34:16 [DEBUG] ...nvim/site/pack/packer/start/nvim-gdb/lua/nvimgdb/win.lua:71: 	{ "function Win:_has_jump_win()" }
+2023-01-19 17:34:16 [DEBUG] .../site/pack/packer/start/nvim-gdb/lua/nvimgdb/keymaps.lua:112: 	{ "function Keymaps:dispatch_unset()" }
+2023-01-19 17:34:16 [DEBUG] .../site/pack/packer/start/nvim-gdb/lua/nvimgdb/keymaps.lua:98: 	{ "function Keymaps:_dispatch(", "unset_keymaps", ")" }
+2023-01-19 17:34:16 [DEBUG] ...m/site/pack/packer/start/nvim-gdb/lua/nvimgdb/config.lua:192: 	{ "function Config:get_or(", "unset_keymaps", <function 1>, ")" }
+2023-01-19 17:34:16 [DEBUG] ...m/site/pack/packer/start/nvim-gdb/lua/nvimgdb/config.lua:183: 	{ "function Config:get(", "unset_keymaps", ")" }
+2023-01-19 17:34:16 [DEBUG] .../site/pack/packer/start/nvim-gdb/lua/nvimgdb/keymaps.lua:62: 	{ "function Keymaps:unset()" }
+2023-01-19 17:34:16 [DEBUG] ...m/site/pack/packer/start/nvim-gdb/lua/nvimgdb/config.lua:183: 	{ "function Config:get(", "key_until", ")" }
+2023-01-19 17:34:16 [DEBUG] .../site/pack/packer/start/nvim-gdb/lua/nvimgdb/keymaps.lua:66: 	{ "keystroke", "<f4>" }
+2023-01-19 17:34:20 [DEBUG] ...nvim/site/pack/packer/start/nvim-gdb/lua/nvimgdb/app.lua:267: 	{ "function App:on_buf_leave()" }
+2023-01-19 17:34:20 [DEBUG] ...nvim/site/pack/packer/start/nvim-gdb/lua/nvimgdb/win.lua:84: 	{ "function Win:is_jump_window_active()" }
+2023-01-19 17:34:20 [DEBUG] ...nvim/site/pack/packer/start/nvim-gdb/lua/nvimgdb/win.lua:71: 	{ "function Win:_has_jump_win()" }
+2023-01-19 17:34:20 [DEBUG] .../site/pack/packer/start/nvim-gdb/lua/nvimgdb/keymaps.lua:112: 	{ "function Keymaps:dispatch_unset()" }
+2023-01-19 17:34:20 [DEBUG] .../site/pack/packer/start/nvim-gdb/lua/nvimgdb/keymaps.lua:98: 	{ "function Keymaps:_dispatch(", "unset_keymaps", ")" }
+2023-01-19 17:34:20 [DEBUG] ...m/site/pack/packer/start/nvim-gdb/lua/nvimgdb/config.lua:192: 	{ "function Config:get_or(", "unset_keymaps", <function 1>, ")" }
+2023-01-19 17:34:20 [DEBUG] ...m/site/pack/packer/start/nvim-gdb/lua/nvimgdb/config.lua:183: 	{ "function Config:get(", "unset_keymaps", ")" }
+2023-01-19 17:34:20 [DEBUG] .../site/pack/packer/start/nvim-gdb/lua/nvimgdb/keymaps.lua:62: 	{ "function Keymaps:unset()" }
+2023-01-19 17:34:20 [DEBUG] ...m/site/pack/packer/start/nvim-gdb/lua/nvimgdb/config.lua:183: 	{ "function Config:get(", "key_until", ")" }
+2023-01-19 17:34:20 [DEBUG] .../site/pack/packer/start/nvim-gdb/lua/nvimgdb/keymaps.lua:66: 	{ "keystroke", "<f4>" }
+2023-01-19 17:34:23 [DEBUG] ...nvim/site/pack/packer/start/nvim-gdb/lua/nvimgdb/app.lua:256: 	{ "function App:on_buf_enter()" }
+2023-01-19 17:34:25 [DEBUG] ...nvim/site/pack/packer/start/nvim-gdb/lua/nvimgdb/app.lua:267: 	{ "function App:on_buf_leave()" }
+2023-01-19 17:34:25 [DEBUG] ...m/site/pack/packer/start/nvim-gdb/lua/nvimgdb/config.lua:192: 	{ "function Config:get_or(", "jump_bottom_gdb_buf", false, ")" }
+2023-01-19 17:34:25 [DEBUG] ...m/site/pack/packer/start/nvim-gdb/lua/nvimgdb/config.lua:183: 	{ "function Config:get(", "jump_bottom_gdb_buf", ")" }
+2023-01-19 17:34:25 [DEBUG] ...nvim/site/pack/packer/start/nvim-gdb/lua/nvimgdb/app.lua:256: 	{ "function App:on_buf_enter()" }
+2023-01-19 17:34:25 [DEBUG] ...nvim/site/pack/packer/start/nvim-gdb/lua/nvimgdb/win.lua:84: 	{ "function Win:is_jump_window_active()" }
+2023-01-19 17:34:25 [DEBUG] ...nvim/site/pack/packer/start/nvim-gdb/lua/nvimgdb/win.lua:71: 	{ "function Win:_has_jump_win()" }
+2023-01-19 17:34:25 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:125: 	{ "function ParserImpl:feed(", { "\r\27[K\r(gdb) \26\26\26" }, ")" }
+2023-01-19 17:34:25 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:127: 	"\r\27[K\r(gdb) \26\26\26"
+2023-01-19 17:34:25 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:144: 	{ "function ParserImpl:_delay_parsing(", 50, 1241, ")" }
+2023-01-19 17:34:25 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:180: 	{ "function ParserImpl:delay_elapsed(", 1241, ")" }
+2023-01-19 17:34:25 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:155: 	{ "function ParserImpl:_search(", 0, ")" }
+2023-01-19 17:34:25 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:73: 	{ "function ParserImpl:_get_state_name()" }
+2023-01-19 17:34:25 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:168: 	"prev state: paused"
+2023-01-19 17:34:25 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:114: 	{ "function ParserImpl:_query_b()" }
+2023-01-19 17:34:25 [INFO] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:115: 	"_query_b"
+2023-01-19 17:34:25 [DEBUG] ...ack/packer/start/nvim-gdb/lua/nvimgdb/parser_actions.lua:38: 	{ "function ParserActions:query_breakpoints()" }
+2023-01-19 17:34:25 [DEBUG] ...nvim/site/pack/packer/start/nvim-gdb/lua/nvimgdb/win.lua:265: 	{ "function Win:query_breakpoints()" }
+2023-01-19 17:34:25 [DEBUG] ...nvim/site/pack/packer/start/nvim-gdb/lua/nvimgdb/win.lua:71: 	{ "function Win:_has_jump_win()" }
+2023-01-19 17:34:25 [DEBUG] ...te/pack/packer/start/nvim-gdb/lua/nvimgdb/breakpoint.lua:78: 	{ "function Breakpoint:query(", 1, "/home/lain/src/cp/sbor/regjan32/d5/b.cpp", ")" }
+2023-01-19 17:34:25 [INFO] ...te/pack/packer/start/nvim-gdb/lua/nvimgdb/breakpoint.lua:79: 	"Query breakpoints for /home/lain/src/cp/sbor/regjan32/d5/b.cpp"
+2023-01-19 17:34:25 [INFO] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/backend/gdb.lua:49: 	"Query breakpoints for /home/lain/src/cp/sbor/regjan32/d5/b.cpp"
+2023-01-19 17:34:25 [DEBUG] ...im/site/pack/packer/start/nvim-gdb/lua/nvimgdb/proxy.lua:62: 	{ "function Proxy:query(", "handle-command info breakpoints", ")" }
+2023-01-19 17:34:25 [INFO] ...im/site/pack/packer/start/nvim-gdb/lua/nvimgdb/proxy.lua:63: 	"Query handle-command info breakpoints"
+2023-01-19 17:34:25 [DEBUG] ...im/site/pack/packer/start/nvim-gdb/lua/nvimgdb/proxy.lua:44: 	{ "function Proxy:_ensure_connected()" }
+2023-01-19 17:34:25 [DEBUG] ...te/pack/packer/start/nvim-gdb/lua/nvimgdb/breakpoint.lua:33: 	{ "function Breakpoint:clear_signs()" }
+2023-01-19 17:34:25 [DEBUG] ...te/pack/packer/start/nvim-gdb/lua/nvimgdb/breakpoint.lua:44: 	{ "function Breakpoint:_set_signs(", 1, ")" }
+2023-01-19 17:34:25 [DEBUG] ...m/site/pack/packer/start/nvim-gdb/lua/nvimgdb/config.lua:183: 	{ "function Config:get(", "sign_breakpoint_priority", ")" }
+2023-01-19 17:34:25 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:73: 	{ "function ParserImpl:_get_state_name()" }
+2023-01-19 17:34:25 [INFO] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:170: 	"new state: paused"
+2023-01-19 17:34:25 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:155: 	{ "function ParserImpl:_search(", 0, ")" }
+2023-01-19 17:34:26 [DEBUG] ...nvim/site/pack/packer/start/nvim-gdb/lua/nvimgdb/app.lua:267: 	{ "function App:on_buf_leave()" }
+2023-01-19 17:34:26 [DEBUG] ...nvim/site/pack/packer/start/nvim-gdb/lua/nvimgdb/win.lua:84: 	{ "function Win:is_jump_window_active()" }
+2023-01-19 17:34:26 [DEBUG] ...nvim/site/pack/packer/start/nvim-gdb/lua/nvimgdb/win.lua:71: 	{ "function Win:_has_jump_win()" }
+2023-01-19 17:34:26 [DEBUG] ...nvim/site/pack/packer/start/nvim-gdb/lua/nvimgdb/app.lua:256: 	{ "function App:on_buf_enter()" }
+2023-01-19 17:34:26 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:125: 	{ "function ParserImpl:feed(", { "\r\27[K\r(gdb) \26\26\26" }, ")" }
+2023-01-19 17:34:26 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:127: 	"\r\27[K\r(gdb) \26\26\26"
+2023-01-19 17:34:26 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:144: 	{ "function ParserImpl:_delay_parsing(", 50, 1252, ")" }
+2023-01-19 17:34:26 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:180: 	{ "function ParserImpl:delay_elapsed(", 1252, ")" }
+2023-01-19 17:34:26 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:155: 	{ "function ParserImpl:_search(", 0, ")" }
+2023-01-19 17:34:26 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:73: 	{ "function ParserImpl:_get_state_name()" }
+2023-01-19 17:34:26 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:168: 	"prev state: paused"
+2023-01-19 17:34:26 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:114: 	{ "function ParserImpl:_query_b()" }
+2023-01-19 17:34:26 [INFO] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:115: 	"_query_b"
+2023-01-19 17:34:26 [DEBUG] ...ack/packer/start/nvim-gdb/lua/nvimgdb/parser_actions.lua:38: 	{ "function ParserActions:query_breakpoints()" }
+2023-01-19 17:34:26 [DEBUG] ...nvim/site/pack/packer/start/nvim-gdb/lua/nvimgdb/win.lua:265: 	{ "function Win:query_breakpoints()" }
+2023-01-19 17:34:26 [DEBUG] ...nvim/site/pack/packer/start/nvim-gdb/lua/nvimgdb/win.lua:71: 	{ "function Win:_has_jump_win()" }
+2023-01-19 17:34:26 [DEBUG] ...te/pack/packer/start/nvim-gdb/lua/nvimgdb/breakpoint.lua:78: 	{ "function Breakpoint:query(", 1, "/home/lain/src/cp/sbor/regjan32/d5/b.cpp", ")" }
+2023-01-19 17:34:26 [INFO] ...te/pack/packer/start/nvim-gdb/lua/nvimgdb/breakpoint.lua:79: 	"Query breakpoints for /home/lain/src/cp/sbor/regjan32/d5/b.cpp"
+2023-01-19 17:34:26 [INFO] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/backend/gdb.lua:49: 	"Query breakpoints for /home/lain/src/cp/sbor/regjan32/d5/b.cpp"
+2023-01-19 17:34:26 [DEBUG] ...im/site/pack/packer/start/nvim-gdb/lua/nvimgdb/proxy.lua:62: 	{ "function Proxy:query(", "handle-command info breakpoints", ")" }
+2023-01-19 17:34:26 [INFO] ...im/site/pack/packer/start/nvim-gdb/lua/nvimgdb/proxy.lua:63: 	"Query handle-command info breakpoints"
+2023-01-19 17:34:26 [DEBUG] ...im/site/pack/packer/start/nvim-gdb/lua/nvimgdb/proxy.lua:44: 	{ "function Proxy:_ensure_connected()" }
+2023-01-19 17:34:26 [DEBUG] ...te/pack/packer/start/nvim-gdb/lua/nvimgdb/breakpoint.lua:33: 	{ "function Breakpoint:clear_signs()" }
+2023-01-19 17:34:26 [DEBUG] ...te/pack/packer/start/nvim-gdb/lua/nvimgdb/breakpoint.lua:44: 	{ "function Breakpoint:_set_signs(", 1, ")" }
+2023-01-19 17:34:26 [DEBUG] ...m/site/pack/packer/start/nvim-gdb/lua/nvimgdb/config.lua:183: 	{ "function Config:get(", "sign_breakpoint_priority", ")" }
+2023-01-19 17:34:26 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:73: 	{ "function ParserImpl:_get_state_name()" }
+2023-01-19 17:34:26 [INFO] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:170: 	"new state: paused"
+2023-01-19 17:34:26 [DEBUG] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/parser_impl.lua:155: 	{ "function ParserImpl:_search(", 0, ")" }
+2023-01-19 17:34:27 [DEBUG] ...nvim/site/pack/packer/start/nvim-gdb/lua/nvimgdb/app.lua:267: 	{ "function App:on_buf_leave()" }
+2023-01-19 17:34:27 [DEBUG] ...m/site/pack/packer/start/nvim-gdb/lua/nvimgdb/config.lua:192: 	{ "function Config:get_or(", "jump_bottom_gdb_buf", false, ")" }
+2023-01-19 17:34:27 [DEBUG] ...m/site/pack/packer/start/nvim-gdb/lua/nvimgdb/config.lua:183: 	{ "function Config:get(", "jump_bottom_gdb_buf", ")" }
+2023-01-19 17:34:27 [DEBUG] ...nvim/site/pack/packer/start/nvim-gdb/lua/nvimgdb/app.lua:256: 	{ "function App:on_buf_enter()" }
+2023-01-19 17:34:27 [DEBUG] ...nvim/site/pack/packer/start/nvim-gdb/lua/nvimgdb/win.lua:84: 	{ "function Win:is_jump_window_active()" }
+2023-01-19 17:34:27 [DEBUG] ...nvim/site/pack/packer/start/nvim-gdb/lua/nvimgdb/win.lua:71: 	{ "function Win:_has_jump_win()" }
+2023-01-19 17:34:27 [DEBUG] .../site/pack/packer/start/nvim-gdb/lua/nvimgdb/keymaps.lua:106: 	{ "function Keymaps:dispatch_set()" }
+2023-01-19 17:34:27 [DEBUG] .../site/pack/packer/start/nvim-gdb/lua/nvimgdb/keymaps.lua:98: 	{ "function Keymaps:_dispatch(", "set_keymaps", ")" }
+2023-01-19 17:34:27 [DEBUG] ...m/site/pack/packer/start/nvim-gdb/lua/nvimgdb/config.lua:192: 	{ "function Config:get_or(", "set_keymaps", <function 1>, ")" }
+2023-01-19 17:34:27 [DEBUG] ...m/site/pack/packer/start/nvim-gdb/lua/nvimgdb/config.lua:183: 	{ "function Config:get(", "set_keymaps", ")" }
+2023-01-19 17:34:27 [DEBUG] .../site/pack/packer/start/nvim-gdb/lua/nvimgdb/keymaps.lua:44: 	{ "function Keymaps:set()" }
+2023-01-19 17:34:27 [DEBUG] ...m/site/pack/packer/start/nvim-gdb/lua/nvimgdb/config.lua:183: 	{ "function Config:get(", "key_until", ")" }
+2023-01-19 17:34:27 [DEBUG] ...m/site/pack/packer/start/nvim-gdb/lua/nvimgdb/config.lua:183: 	{ "function Config:get(", "key_continue", ")" }
+2023-01-19 17:34:27 [DEBUG] ...m/site/pack/packer/start/nvim-gdb/lua/nvimgdb/config.lua:183: 	{ "function Config:get(", "key_next", ")" }
+2023-01-19 17:34:27 [DEBUG] ...m/site/pack/packer/start/nvim-gdb/lua/nvimgdb/config.lua:183: 	{ "function Config:get(", "key_step", ")" }
+2023-01-19 17:34:27 [DEBUG] ...m/site/pack/packer/start/nvim-gdb/lua/nvimgdb/config.lua:183: 	{ "function Config:get(", "key_finish", ")" }
+2023-01-19 17:34:27 [DEBUG] ...m/site/pack/packer/start/nvim-gdb/lua/nvimgdb/config.lua:183: 	{ "function Config:get(", "key_breakpoint", ")" }
+2023-01-19 17:34:27 [DEBUG] ...m/site/pack/packer/start/nvim-gdb/lua/nvimgdb/config.lua:183: 	{ "function Config:get(", "key_frameup", ")" }
+2023-01-19 17:34:27 [DEBUG] ...m/site/pack/packer/start/nvim-gdb/lua/nvimgdb/config.lua:183: 	{ "function Config:get(", "key_framedown", ")" }
+2023-01-19 17:34:27 [DEBUG] ...m/site/pack/packer/start/nvim-gdb/lua/nvimgdb/config.lua:183: 	{ "function Config:get(", "key_eval", ")" }
+2023-01-19 17:34:27 [DEBUG] ...m/site/pack/packer/start/nvim-gdb/lua/nvimgdb/config.lua:183: 	{ "function Config:get(", "key_eval", ")" }
+2023-01-19 17:34:27 [DEBUG] ...m/site/pack/packer/start/nvim-gdb/lua/nvimgdb/config.lua:183: 	{ "function Config:get(", "key_quit", ")" }
+2023-01-19 17:34:27 [DEBUG] ...nvim/site/pack/packer/start/nvim-gdb/lua/nvimgdb/win.lua:265: 	{ "function Win:query_breakpoints()" }
+2023-01-19 17:34:27 [DEBUG] ...nvim/site/pack/packer/start/nvim-gdb/lua/nvimgdb/win.lua:71: 	{ "function Win:_has_jump_win()" }
+2023-01-19 17:34:27 [DEBUG] ...te/pack/packer/start/nvim-gdb/lua/nvimgdb/breakpoint.lua:78: 	{ "function Breakpoint:query(", 1, "/home/lain/src/cp/sbor/regjan32/d5/b.cpp", ")" }
+2023-01-19 17:34:27 [INFO] ...te/pack/packer/start/nvim-gdb/lua/nvimgdb/breakpoint.lua:79: 	"Query breakpoints for /home/lain/src/cp/sbor/regjan32/d5/b.cpp"
+2023-01-19 17:34:27 [INFO] ...e/pack/packer/start/nvim-gdb/lua/nvimgdb/backend/gdb.lua:49: 	"Query breakpoints for /home/lain/src/cp/sbor/regjan32/d5/b.cpp"
+2023-01-19 17:34:27 [DEBUG] ...im/site/pack/packer/start/nvim-gdb/lua/nvimgdb/proxy.lua:62: 	{ "function Proxy:query(", "handle-command info breakpoints", ")" }
+2023-01-19 17:34:27 [INFO] ...im/site/pack/packer/start/nvim-gdb/lua/nvimgdb/proxy.lua:63: 	"Query handle-command info breakpoints"
+2023-01-19 17:34:27 [DEBUG] ...im/site/pack/packer/start/nvim-gdb/lua/nvimgdb/proxy.lua:44: 	{ "function Proxy:_ensure_connected()" }
+2023-01-19 17:34:27 [DEBUG] ...te/pack/packer/start/nvim-gdb/lua/nvimgdb/breakpoint.lua:33: 	{ "function Breakpoint:clear_signs()" }
+2023-01-19 17:34:27 [DEBUG] ...te/pack/packer/start/nvim-gdb/lua/nvimgdb/breakpoint.lua:44: 	{ "function Breakpoint:_set_signs(", 1, ")" }
+2023-01-19 17:34:27 [DEBUG] ...m/site/pack/packer/start/nvim-gdb/lua/nvimgdb/config.lua:183: 	{ "function Config:get(", "sign_breakpoint_priority", ")" }
+2023-01-19 17:34:31 [INFO] ...are/nvim/site/pack/packer/start/nvim-gdb/lua/nvimgdb.lua:133: 	"Handle VimLeavePre"
+2023-01-19 17:34:31 [INFO] ...are/nvim/site/pack/packer/start/nvim-gdb/lua/nvimgdb.lua:91: 	"Cleanup session 1"
+2023-01-19 17:34:31 [INFO] ...are/nvim/site/pack/packer/start/nvim-gdb/lua/nvimgdb.lua:100: 	"Calling nvimgdb#GlobalCleanup()"
+2023-01-19 17:34:31 [DEBUG] ...nvim/site/pack/packer/start/nvim-gdb/lua/nvimgdb/win.lua:51: 	{ "function Win:unset_keymaps()" }
+2023-01-19 17:34:31 [DEBUG] ...nvim/site/pack/packer/start/nvim-gdb/lua/nvimgdb/win.lua:71: 	{ "function Win:_has_jump_win()" }
+2023-01-19 17:34:31 [DEBUG] ...nvim/site/pack/packer/start/nvim-gdb/lua/nvimgdb/win.lua:97: 	{ "function Win:_with_saved_win(", true, <function 1>, ")" }
+2023-01-19 17:34:31 [DEBUG] .../site/pack/packer/start/nvim-gdb/lua/nvimgdb/keymaps.lua:112: 	{ "function Keymaps:dispatch_unset()" }
+2023-01-19 17:34:31 [DEBUG] .../site/pack/packer/start/nvim-gdb/lua/nvimgdb/keymaps.lua:98: 	{ "function Keymaps:_dispatch(", "unset_keymaps", ")" }
+2023-01-19 17:34:31 [DEBUG] ...m/site/pack/packer/start/nvim-gdb/lua/nvimgdb/config.lua:192: 	{ "function Config:get_or(", "unset_keymaps", <function 1>, ")" }
+2023-01-19 17:34:31 [DEBUG] ...m/site/pack/packer/start/nvim-gdb/lua/nvimgdb/config.lua:183: 	{ "function Config:get(", "unset_keymaps", ")" }
+2023-01-19 17:34:31 [DEBUG] .../site/pack/packer/start/nvim-gdb/lua/nvimgdb/keymaps.lua:62: 	{ "function Keymaps:unset()" }
+2023-01-19 17:34:31 [DEBUG] ...m/site/pack/packer/start/nvim-gdb/lua/nvimgdb/config.lua:183: 	{ "function Config:get(", "key_until", ")" }
+2023-01-19 17:34:31 [DEBUG] .../site/pack/packer/start/nvim-gdb/lua/nvimgdb/keymaps.lua:66: 	{ "keystroke", "<f4>" }
+2023-01-19 17:34:31 [DEBUG] ...m/site/pack/packer/start/nvim-gdb/lua/nvimgdb/config.lua:183: 	{ "function Config:get(", "key_continue", ")" }
+2023-01-19 17:34:31 [DEBUG] .../site/pack/packer/start/nvim-gdb/lua/nvimgdb/keymaps.lua:66: 	{ "keystroke", "<f5>" }
+2023-01-19 17:34:31 [DEBUG] ...m/site/pack/packer/start/nvim-gdb/lua/nvimgdb/config.lua:183: 	{ "function Config:get(", "key_next", ")" }
+2023-01-19 17:34:31 [DEBUG] .../site/pack/packer/start/nvim-gdb/lua/nvimgdb/keymaps.lua:66: 	{ "keystroke", "<f10>" }
+2023-01-19 17:34:31 [DEBUG] ...m/site/pack/packer/start/nvim-gdb/lua/nvimgdb/config.lua:183: 	{ "function Config:get(", "key_step", ")" }
+2023-01-19 17:34:31 [DEBUG] .../site/pack/packer/start/nvim-gdb/lua/nvimgdb/keymaps.lua:66: 	{ "keystroke", "<f11>" }
+2023-01-19 17:34:31 [DEBUG] ...m/site/pack/packer/start/nvim-gdb/lua/nvimgdb/config.lua:183: 	{ "function Config:get(", "key_finish", ")" }
+2023-01-19 17:34:31 [DEBUG] .../site/pack/packer/start/nvim-gdb/lua/nvimgdb/keymaps.lua:66: 	{ "keystroke", "<f12>" }
+2023-01-19 17:34:31 [DEBUG] ...m/site/pack/packer/start/nvim-gdb/lua/nvimgdb/config.lua:183: 	{ "function Config:get(", "key_breakpoint", ")" }
+2023-01-19 17:34:31 [DEBUG] .../site/pack/packer/start/nvim-gdb/lua/nvimgdb/keymaps.lua:66: 	{ "keystroke", "<f8>" }
+2023-01-19 17:34:31 [DEBUG] ...m/site/pack/packer/start/nvim-gdb/lua/nvimgdb/config.lua:183: 	{ "function Config:get(", "key_frameup", ")" }
+2023-01-19 17:34:31 [DEBUG] .../site/pack/packer/start/nvim-gdb/lua/nvimgdb/keymaps.lua:66: 	{ "keystroke", "<c-p>" }
+2023-01-19 17:34:31 [DEBUG] ...m/site/pack/packer/start/nvim-gdb/lua/nvimgdb/config.lua:183: 	{ "function Config:get(", "key_framedown", ")" }
+2023-01-19 17:34:31 [DEBUG] .../site/pack/packer/start/nvim-gdb/lua/nvimgdb/keymaps.lua:66: 	{ "keystroke", "<c-n>" }
+2023-01-19 17:34:31 [DEBUG] ...m/site/pack/packer/start/nvim-gdb/lua/nvimgdb/config.lua:183: 	{ "function Config:get(", "key_eval", ")" }
+2023-01-19 17:34:31 [DEBUG] .../site/pack/packer/start/nvim-gdb/lua/nvimgdb/keymaps.lua:66: 	{ "keystroke", "<f9>" }
+2023-01-19 17:34:31 [DEBUG] ...m/site/pack/packer/start/nvim-gdb/lua/nvimgdb/config.lua:183: 	{ "function Config:get(", "key_eval", ")" }
+2023-01-19 17:34:31 [DEBUG] .../site/pack/packer/start/nvim-gdb/lua/nvimgdb/keymaps.lua:66: 	{ "keystroke", "<f9>" }
+2023-01-19 17:34:31 [DEBUG] ...m/site/pack/packer/start/nvim-gdb/lua/nvimgdb/config.lua:183: 	{ "function Config:get(", "key_quit", ")" }
+2023-01-19 17:34:31 [DEBUG] ...nvim/site/pack/packer/start/nvim-gdb/lua/nvimgdb/app.lua:105: 	{ "function App:cleanup(", 1, ")" }
+2023-01-19 17:34:31 [DEBUG] ...te/pack/packer/start/nvim-gdb/lua/nvimgdb/breakpoint.lua:87: 	{ "function Breakpoint:reset_signs()" }
+2023-01-19 17:34:31 [DEBUG] ...te/pack/packer/start/nvim-gdb/lua/nvimgdb/breakpoint.lua:33: 	{ "function Breakpoint:clear_signs()" }
+2023-01-19 17:34:31 [DEBUG] ...m/site/pack/packer/start/nvim-gdb/lua/nvimgdb/cursor.lua:29: 	{ "function Cursor:hide()" }
+2023-01-19 17:34:31 [DEBUG] ...nvim/site/pack/packer/start/nvim-gdb/lua/nvimgdb/win.lua:62: 	{ "function Win:cleanup()" }
+2023-01-19 17:34:31 [DEBUG] ...im/site/pack/packer/start/nvim-gdb/lua/nvimgdb/proxy.lua:34: 	{ "function Proxy:cleanup()" }
+2023-01-19 17:34:31 [DEBUG] ...m/site/pack/packer/start/nvim-gdb/lua/nvimgdb/client.lua:58: 	{ "function Client:cleanup()" }
+2023-01-19 17:34:31 [DEBUG] ...m/site/pack/packer/start/nvim-gdb/lua/nvimgdb/client.lua:71: 	{ "function Client:_cleanup_buf_hidden()" }
