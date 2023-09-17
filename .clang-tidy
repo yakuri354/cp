@@ -1,2 +1,2 @@
-Checks: 'clang-diagnostic-*,clang-analyzer-*,bugprone-*'
+Checks: 'performance-*,clang-diagnostic-*,clang-analyzer-*,bugprone-*,-bugprone-easily-swappable-parameters'
 FormatStyle: google

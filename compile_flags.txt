@@ -1,0 +1,9 @@
+-fcolor-diagnostics
+-fansi-escape-codes
+-DDBG
+-DLSP
+-std=gnu++17
+-Wall
+-Wpedantic
+-O0
+-g
