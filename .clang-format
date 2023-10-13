@@ -1,4 +1,3 @@
 BasedOnStyle: Chromium
 IndentWidth: 4
-InsertBraces: true
 AllowShortFunctionsOnASingleLine: false
