@@ -15,7 +15,10 @@ using ull = unsigned long long;
 using fl = long double;
 
 void solve() {
+    ll n;
+    cin >> n
 
+    for (ll i = )
 }
 
 int main() {
@@ -24,3 +27,4 @@ int main() {
     // ll t; cin >> t; while (t --> 0)
     solve();
 }
+

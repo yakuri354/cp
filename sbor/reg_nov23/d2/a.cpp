@@ -15,7 +15,12 @@ using ull = unsigned long long;
 using fl = long double;
 
 void solve() {
+    fl a, b;
+    cin >> a >> b;
 
+    fl ans = 1/(1/a + 1/b);
+
+    cout << ll(floor(ans)) << endl;
 }
 
 int main() {

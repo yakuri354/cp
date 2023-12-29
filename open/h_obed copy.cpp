@@ -1,6 +1,7 @@
 // #pragma GCC optimize("Ofast")
 // #pragma GCC target("avx2,bmi,bmi2,lzcnt,popcnt")
 #include <algorithm>
+#include <ctime>
 #include <exception>
 #include <fstream>
 #include <initializer_list>
@@ -14,7 +15,9 @@
 #include <type_traits>
 #include <unordered_map>
 #include <unordered_set>
+#include <utility>
 #include <vector>
+#include <cmath>
 #include <optional>
 
 using namespace std;
@@ -35,6 +38,7 @@ using fl = long double;
 const ll inf = INT32_MAX;
 const fl eps = 1e-9;
 const fl max_abs_c = 1e9;
+const fl pi = asinl(1) * 2;
 
 mt19937_64 mt(0xab0ba);
 
@@ -49,6 +53,12 @@ struct polygon;
 struct convex_poly;
 
 using pt = v2;
+
+void wait(fl t) {
+    auto c1 = clock();
+    volatile ull x = 0;
+    while (fl(clock() - c1) / fl(CLOCKS_PER_SEC) < t) x++;
+}
 
 struct v2 {
     fl x, y;
@@ -154,6 +164,12 @@ struct v2 {
 
     fl angle(const v2& other) const {
         return atan2l(cross(other), dot(other));
+    }
+
+    fl angle_clockwise(const v2 &other) const {
+        fl a = angle(other);
+        if (a < 0) return -a;
+        return 2 * pi - a;
     }
 
     v2 to(const v2& other) const {
@@ -345,8 +361,49 @@ struct triangle : polygon {
     }
 };
 
+/// pts ordered clockwise?
 struct convex_poly : polygon {
     using polygon::polygon;
+
+    vector<fl> _angles;
+
+    void calc_angles_from_0(const pt &ctr) {
+        _angles.resize(n);
+        _angles[0] = 0;
+        for (ll i = 1; i < n; i++) {
+            _angles[i] = ctr.to(pts[0]).angle_clockwise(ctr.to(pts[i]));
+        }
+    }
+
+    ll localize_from(const pt &centre, const pt &p) const {
+        ll lo = 0, hi = n;
+
+        fl ang1 = centre.to(pts[0]).angle_clockwise(centre.to(p));
+
+        while (hi - lo > 1) {
+            ll m = (lo + hi) / 2;
+
+            if (_angles[m] < ang1) {
+                lo = m;
+            } else {
+                hi = m;
+            }
+        }
+
+        if (!(centre.to(pts[lo]) > centre.to(p) && centre.to(p) > centre.to(pts[(lo + 1) % n]))) {
+            exit(-1);
+        }
+
+        return lo;
+        
+        // for (ll i = 0; i < n; i++) {
+        //     if (centre.to(pts[i]) > centre.to(p) && centre.to(p) > centre.to(pts[(i + 1) % n])) {
+        //         return i;
+        //     }
+        // }
+
+        // exit(-1);
+    }
 
     bool has(const pt& p) const {
         if (pts[0].to(p) > pts[0].to(pts[1]) ||
@@ -501,3 +558,279 @@ bool intersect(const A &a, const B &b) {
 //     return intersect(r.origin, seg)
 //         || r.dir.between_weak(ra, rb);  // SUS
 // }
+
+struct mex {
+    ll n;
+    vector<bool> d;
+
+    mex(ll n): n(n), d(n, false) {}
+
+    void add(ll x) {
+        if (x < n) d[x] = true;
+    }
+
+    ll get_mex() {
+        for (ll i = 0; i < n; i++) {
+            if (!d[i]) return i;
+        }
+        return n;
+    }
+};
+
+vector<ll> fG;
+
+void precalc(ll n) {
+    fG.resize(n + 2);
+    fG[0] = 0;
+    fG[1] = 1;
+
+    mex m(n / 2 + 1);
+    for (ll i = 2; i <= n; i++) {
+        m.d.assign(n / 2 + 1, false);
+        m.add(fG[i - 1]);
+        for (ll j = 0; j * 2 < i; j++) {
+            m.add(fG[j] ^ fG[i - j - 2]);
+        }
+        fG[i] = m.get_mex();
+    }
+}
+
+ll cycleG(ll x) {
+    return fG[x] == 0;
+}
+
+struct iseg {
+    ll l, r;
+
+    ll G() {
+        return fG[r - l + 1];
+    }
+};
+
+struct game {
+    ll n, ans = 0;
+    set<iseg> segs;
+
+    game(ll n): n(n) {}
+
+    void flip(ll i) {
+        if (segs.empty()) {
+            segs.insert({i, i});
+            ans ^= fG[1];
+            return;
+        }
+
+        auto left = segs.lower_bound({i, 0});
+
+        if (left == segs.end()) {
+            left = segs.find(*segs.rbegin());
+        }
+
+        if (left->l > i) {
+            if (left == segs.begin()) {
+                left = segs.end();
+            } else {
+                left--;
+            }
+        }
+        
+        auto right = segs.upper_bound({i, 0});
+
+        if (left != segs.end() && left->l <= i && left->second >= i) {
+            auto old = *left;
+            segs.erase(left);
+            ans ^= fG[old.second - old.l + 1];
+            if (old.l < i) {
+                segs.insert({old.l, i - 1});
+                ans ^= fG[i - 1 - old.l + 1];
+            }
+            if (old.second > i) {
+                segs.insert({i + 1, old.second});
+                ans ^= fG[old.l - i - 1 + 1];
+            }
+        } else if (left != segs.end() && right != segs.end() && left->second == i - 1 && right->l == i + 1) { 
+            auto np = make_pair(left->first, right->second);
+            segs.erase(left);
+            segs.erase(right);
+            segs.insert(np);
+        } else if (left != segs.end() && left->second == i - 1) {
+            auto np = make_pair(left->first, i);
+            segs.erase(left);
+            segs.insert(np);
+        } else if (right != segs.end() && right->first == i + 1) {
+            auto np = make_pair(i, right->second);
+            segs.erase(right);
+            segs.insert(np);
+        } else {
+            segs.insert({i, i});
+        }
+    }
+
+    ll G_calc() {
+        if (segs.size() == 0) {
+            return 0;
+        }
+
+    }
+
+    ll G_slow() {
+        if (segs.size() == 0) {
+            return 0;
+        }
+
+        ll ans = 0;
+        for (auto [l, r]: segs) {
+            ans ^= fG[r - l + 1]; // fixme
+        }
+
+        if (segs.rbegin()->second == n - 1 && segs.begin()->first == 0) {
+            if (segs.size() == 1) {
+                return cycleG(n - 2);
+            } else {
+                ll l1 = segs.begin()->second - segs.begin()->first + 1;
+                ll l2 = segs.rbegin()->second - segs.rbegin()->first + 1;
+                ans ^= fG[l1];
+                ans ^= fG[l2];
+                ans ^= fG[l1 + l2];
+            }
+        }
+
+        return ans;
+    }
+};
+
+struct game_dolboeb {
+    ll n;
+    vector<bool> d;
+
+    game_dolboeb(ll n): n(n), d(n, false) {}
+
+    void flip(ll i) {
+        d[i] = d[i] ^ 1;
+    }
+
+    ll G_dolboeb() {
+        if (count(d.begin(), d.end(), 1) == n) {
+            // exit(-1);
+
+            return cycleG(n - 2); // sus
+        }
+
+        ll last = -1;
+        
+        vector<pair<ll, ll>> segs;
+
+        for (ll i = 0; i < n; i++) {
+            if (d[i] && last == -1) {
+                last = i;
+            }
+            if (!d[i] && last != -1) {
+                segs.push_back({last, i - 1});
+                last = -1;
+            }
+        }
+
+        if (last != -1) {
+            segs.push_back({last, n - 1});
+        }
+
+        if (segs.size() == 0) {
+            return 0;
+        }
+
+        ll ans = 0;
+        for (auto [l, r]: segs) {
+            ans ^= fG[r - l + 1];
+        }
+
+        if (segs[0].first == 0 && segs.back().second == n - 1) {
+            if (segs.size() == 1) exit(-1);
+            ll l1 = segs[0].second - segs[0].first + 1;
+            ll l2 = segs.back().second - segs.back().first + 1;
+            ans ^= fG[l1];
+            ans ^= fG[l2];
+            ans ^= fG[l1 + l2];
+        }
+
+        return ans;
+    }
+};
+
+void print_ans(ll x) {
+    if (x == 0) {
+        cout << "Bob\n";
+    } else {
+        cout << "Alice\n";
+    }
+}
+
+void solve() {
+    ll n, m, q;
+    cin >> n >> m >> q;
+
+    precalc(n);
+
+    pt ctr;
+    cin >> ctr;
+
+    game g(n);
+
+    vector<pt> hull_pts(n);
+
+    for (pt &p: hull_pts) cin >> p;
+
+    vector<pt> pts_init(m);
+    vector<ll> cnt(n);
+
+    for (auto &i: pts_init) {
+        cin >> i;
+    }
+
+    reverse(hull_pts.begin(), hull_pts.end());
+
+    convex_poly pp(hull_pts);
+    pp.calc_angles_from_0(ctr);
+
+    for (auto &p: pts_init) {
+        cnt[pp.localize_from(ctr, p)]++;
+    }
+
+    for (ll i = 0; i < n; i++) {
+        if (cnt[i] > 0) g.flip(i);
+    }
+
+    print_ans(g.G_slow());
+
+    for (ll i = 0; i < q; i++) {
+        string ty;
+        pt p;
+        cin >> ty >> p;
+
+        ll ix = pp.localize_from(ctr, p);
+
+        bool old_z = cnt[ix] == 0;
+
+        if (ty == "+") {
+            cnt[ix]++;
+        }
+
+        if (ty == "-") {
+            cnt[ix]--;
+        }
+
+        if (cnt[ix] < 0) exit(-1);
+
+        if ((cnt[ix] == 0) != old_z) {
+            g.flip(ix);
+        }
+
+        print_ans(g.G_slow());
+    }
+}
+
+int main() {
+    cin.tie(nullptr);
+    ios::sync_with_stdio(false);
+    // ll t; cin >> t; while (t --> 0)
+    solve();
+}

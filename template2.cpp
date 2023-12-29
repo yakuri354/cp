@@ -14,8 +14,6 @@ using ll = long long;
 using ull = unsigned long long;
 using fl = long double;
 
-const ll inf = INT32_MAX;
-
 #ifdef DBG
 #define inv(x)                                                       \
     if (!(x)) {                                                      \

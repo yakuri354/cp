@@ -15,7 +15,23 @@ using ull = unsigned long long;
 using fl = long double;
 
 void solve() {
+    ll n, m, a, k;
+    cin >> n >> m >> a >> k;
 
+    if (k == 1) {
+        if (n >= a && m >= a) {
+            cout << "YES" << endl;
+        } else {
+            cout << "NO" << endl;
+        }
+    }
+    if (k == 2) {
+        if (min(n, m) * 2 >= a && max(n, m) >= a) {
+            cout << "YES" << endl;
+        } else {
+            cout << "NO" << endl;
+        }
+    }
 }
 
 int main() {

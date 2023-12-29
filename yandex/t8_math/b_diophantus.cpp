@@ -14,6 +14,16 @@ using ll = long long;
 using ull = unsigned long long;
 using fl = long double;
 
+tuple<ll, ll, ll> ex(ll a, ll b) {
+    if (b == 0) {
+        return {1, 0, a};
+    }
+
+    auto [a1, b1, g] = ex(b, a % b);
+
+    
+}
+
 void solve() {
 
 }
@@ -24,3 +34,4 @@ int main() {
     // ll t; cin >> t; while (t --> 0)
     solve();
 }
+

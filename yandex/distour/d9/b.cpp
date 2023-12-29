@@ -14,8 +14,36 @@ using ll = long long;
 using ull = unsigned long long;
 using fl = long double;
 
-void solve() {
+const ll maxn = 3e5;
 
+vector<ll> g[maxn];
+vector<ll> term[maxn];
+vector<pair<ll, ll>> qs;
+
+void solve() {
+    ll n, m;
+    cin >> n >> m;
+
+    for (ll i = 0; i < n - 1; i++) {
+        ll a, b;
+        cin >> a >> b;
+        a--, b--;
+
+        g[a].push_back(b);
+        g[b].push_back(a);
+    }
+
+    qs.resize(m);
+
+    for (auto &[a, b]: qs) {
+        cin >> a >> b;
+        a--, b--;
+
+        term[a].push_back(b);
+        term[b].push_back(a);
+    }
+
+    
 }
 
 int main() {
@@ -24,3 +52,4 @@ int main() {
     // ll t; cin >> t; while (t --> 0)
     solve();
 }
+

@@ -15,7 +15,20 @@ using ull = unsigned long long;
 using fl = long double;
 
 void solve() {
+    ll n;
+    cin >> n;
 
+    set<string> ss = {"OK", "WA", "TL", "RE", "ML", "PE"};
+
+    for (ll i = 0; i < n; i++) {
+        string s;
+        cin >> s;
+        ss.erase(s);
+    }
+
+    for (const string &s: ss) {
+        cout << s << endl;
+    }
 }
 
 int main() {

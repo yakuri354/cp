@@ -14,6 +14,13 @@ using ll = long long;
 using ull = unsigned long long;
 using fl = long double;
 
+ll maxnode = 0;
+
+struct node {
+    ll size;
+    ll link = -1;
+};
+
 void solve() {
 
 }
@@ -24,3 +31,4 @@ int main() {
     // ll t; cin >> t; while (t --> 0)
     solve();
 }
+

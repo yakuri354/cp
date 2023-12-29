@@ -15,12 +15,17 @@ using ull = unsigned long long;
 using fl = long double;
 
 void solve() {
+    ll n;
+    string s;
+    cin >> n >> s;
 
+    cout << s.back() << '\n';
 }
 
 int main() {
     cin.tie(nullptr);
     ios::sync_with_stdio(false);
-    // ll t; cin >> t; while (t --> 0)
+    ll t; cin >> t; while (t --> 0)
     solve();
 }
+
