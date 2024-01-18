@@ -8,24 +8,35 @@
 #include <numeric>
 #include <algorithm>
 #include <random>
+#include <map>
 
 using namespace std;
 using ll = long long;
 using ull = unsigned long long;
 using fl = long double;
 
-#ifdef DBG
-#define inv(x)                                                       \
-    if (!(x)) {                                                      \
-        cerr << "invariant " #x " violated at " << __LINE__ << endl; \
-        __builtin_trap();                                            \
-        exit(-1);                                                    \
-    }
-#else
-#define inv(x)
-#endif
+unordered_set<ll> ans;
+
+
 
 void solve() {
+    ll n;
+    cin >> n;
+
+    map<ll, ll> divs;
+
+    ll curr = n;
+    for (ll i = 2; i * i <= n; i++) {
+        while (curr % i == 0) {
+            curr /= i;
+            divs[i]++;
+        }
+    }
+
+    if (curr != 1) {
+        divs[curr]++;
+    }
+
 
 }
 
@@ -35,3 +46,4 @@ int main() {
     // ll t; cin >> t; while (t --> 0)
     solve();
 }
+

@@ -20,7 +20,9 @@ ll n;
 ll queries;
 
 map<pair<ll, ll>, bool> asked;
-vector<ll> out_known;
+vector<set<ll>> out_known;
+vector<set<ll>> in_known;
+vector<ll> dir;
 
 bool in_check;
 
@@ -50,8 +52,15 @@ bool ask(ll u, ll v) {
     cin >> ans;
     ll res = ans == "forward";
 
-    out_known[u] += res;
-    out_known[v] += !res;
+    if (res) {
+        dir[u] = v;
+        out_known[u].insert(v);
+        in_known[v].insert(u);
+    } else {
+        dir[v] = u;
+        out_known[v].insert(u);
+        in_known[u].insert(v);
+    }
 
     asked[{u, v}] = res;
 
@@ -100,7 +109,7 @@ void process(vector<ll>& vs) {
 }
 
 bool check(ll v) {
-    if (out_known[v] > 1) return false;
+    if (out_known[v].size() > 1) return false;
 
     in_check = true;
 
@@ -112,7 +121,7 @@ bool check(ll v) {
         if (all[i] == v)
             continue;
         ask(v, all[i]);
-        if (out_known[v] > 1) {
+        if (out_known[v].size() > 1) {
             in_check = false;
             return false;
         }
@@ -131,11 +140,116 @@ void answer(const vector<ll> &a) {
     cout << "! " << -1 << endl;
 }
 
+bool related(ll a, ll b) {
+    return dir[a] == b || dir[b] == a;
+}
+
+void solve2() {
+    cin >> n;
+    queries = 0;
+
+    out_known.assign(n, {});
+    in_known.assign(n, {});
+    dir.assign(n, -1);
+    asked.clear();
+
+    vector<ll> d0(n), d1;
+
+    iota(d0.begin(), d0.end(), 0);
+
+    // n
+    while (d0.size() > 1) {
+        ll v = d0.back();
+        ll u = d0[d0.size() - 2];
+        d0.erase(d0.end() - 2, d0.end());
+
+        if (ask(v, u)) {
+            d1.push_back(v);
+            d0.push_back(u);
+        } else {
+            d1.push_back(u);
+            d0.push_back(v);
+        }
+    }
+    // ok
+
+    // n
+    set<ll> zlp;
+    if (!d0.empty()) {
+        ll v = d0.back();
+        for (ll i = 0; i < n; i++) {
+            if (i == v) continue;
+
+            ll nprev = dir[i] != v;
+            if (!ask(v, i) && nprev) {
+                zlp.insert(i);
+            }
+        }
+
+        if (check(d0[0])) {
+            cout << "! " << d0[0] + 1 << endl;
+            return;
+        }
+    }
+
+    vector<ll> xxx;
+
+    for (ll i: d1) {
+        if (!zlp.count(i)) xxx.push_back(i);
+    }
+
+    d1 = xxx;
+
+    while (d1.size() > 1) {
+        sort(d1.rbegin(), d1.rend(), [&](ll a, ll b) {
+            return in_known[a].size() < in_known[b].size();
+        });
+
+        ll f_i = -1, f_j = -1;
+        for (ll i = 0; i < d1.size(); i++) {
+            for (ll j = i + 1; j < d1.size(); j++) {
+                if (!related(d1[i], d1[j])) {
+                    f_i = i;
+                    f_j = j;
+                    goto cnt;
+                }
+            }
+        }
+
+        cnt: if (f_i == -1) {
+            break;
+        }
+
+        auto v1 = d1[f_i], v2 = d1[f_j];
+
+        d1.erase(d1.begin() + f_i);
+        d1.erase(d1.begin() + f_j);
+
+        if (ask(v1, v2)) {
+            d1.push_back(v2);
+        } else {
+            d1.push_back(v1);
+        }
+    }
+
+    while (!d1.empty()) {
+        if (check(d1.back())) {
+            cout << "! " << d1.back() + 1 << endl;
+            return;
+        }
+        d1.pop_back();
+    }
+
+    cout << "! kal kall ksdjlfa" << endl;
+}
+
 void solve() {
     cin >> n;
     queries = 0;
 
-    out_known.assign(n, 0);
+    out_known.assign(n, {});
+    in_known.assign(n, {});
+    dir.assign(n, -1);
     asked.clear();
 
     vector<ll> all(n);
@@ -186,5 +300,5 @@ int main() {
     ll g, t;
     cin >> g >> t;
     while (t-- > 0)
-        solve();
+        solve2();
 }

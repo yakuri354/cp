@@ -14,19 +14,12 @@ using ll = long long;
 using ull = unsigned long long;
 using fl = long double;
 
-#ifdef DBG
-#define inv(x)                                                       \
-    if (!(x)) {                                                      \
-        cerr << "invariant " #x " violated at " << __LINE__ << endl; \
-        __builtin_trap();                                            \
-        exit(-1);                                                    \
-    }
-#else
-#define inv(x)
-#endif
-
 void solve() {
+    ll ans = 0;
 
+    for (ll a1 = 0; a1 < 210; a1++) {
+        for (ll a2; )
+    }
 }
 
 int main() {
@@ -35,3 +28,4 @@ int main() {
     // ll t; cin >> t; while (t --> 0)
     solve();
 }
+

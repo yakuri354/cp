@@ -29,7 +29,6 @@ void solve() {
         data.insert(x);
     }
 
-
     ll q;
     cin >> q;
 

@@ -47,7 +47,7 @@ vector<ll> skuf(string s) {
 
 vector<ll> skuf_fast(string &s) {
     const ll n = s.size();
-    vector<int> p(n), c(n), cnt(max(256ll, n), 0);
+    vector<ll> p(n), c(n), cnt(max(256ll, n), 0);
     for (int i = 0; i < n; i++)
         cnt[s[i]]++;
     for (int i = 1; i < 256; i++)
@@ -62,7 +62,7 @@ vector<ll> skuf_fast(string &s) {
         c[p[i]] = classes - 1;
     }
 
-    vector<int> pn(n), cn(n);
+    vector<ll> pn(n), cn(n);
     for (int h = 0; (1 << h) < n; ++h) {
         for (int i = 0; i < n; i++) {
             pn[i] = p[i] - (1 << h);

@@ -1,0 +1,22 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Build current file",
+            "type": "shell",
+            // "osx": {
+                // "command": "fish -c 'cppbuild ${file}'",
+            // },
+            // "linux": {
+            "command": "mkdir -p ${fileDirname}/build && clang++ -fsanitize=address,undefined -fcolor-diagnostics -fansi-escape-codes -DDBG -std=gnu++17 -Wall -Wpedantic -O0 -g '${file}' -o '${fileDirname}/build/${fileBasename}.out'",
+            // },
+            "problemMatcher": [],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        }
+    ]
+}

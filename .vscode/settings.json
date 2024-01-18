@@ -1,0 +1,8 @@
+{
+    // "clangd.path": "/opt/homebrew/opt/llvm/bin/clangd",
+    "clangd.arguments": [
+        // "--query-driver=/opt/homebrew/bin/g++-13",
+    ],
+    "python.analysis.typeCheckingMode": "basic",
+    "python.analysis.autoImportCompletions": true
+}
