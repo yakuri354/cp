@@ -14,11 +14,15 @@ using ll = long long;
 using ull = unsigned long long;
 using fl = long double;
 
+ll x[10000];
+
 void solve() {
     ll n;
     cin >> n;
 
     ll s = ll(sqrtl(n));
+
+    sort(x, x + n);
 
     ll pos = 0;
     for (ll i = 0; i <= 62; i++) {

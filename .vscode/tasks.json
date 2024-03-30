@@ -10,7 +10,8 @@
                 // "command": "fish -c 'cppbuild ${file}'",
             // },
             // "linux": {
-            "command": "mkdir -p ${fileDirname}/build && clang++ -fsanitize=address,undefined -fcolor-diagnostics -fansi-escape-codes -DDBG -std=gnu++17 -Wall -Wpedantic -O0 -g '${file}' -o '${fileDirname}/build/${fileBasename}.out'",
+            // "command": "mkdir -p ${fileDirname}/build && clang++ -fsanitize=address,undefined -fcolor-diagnostics -fansi-escape-codes -DDBG -std=gnu++17 -Wall -Wpedantic -O0 -g '${file}' -o '${fileDirname}/build/${fileBasename}.out'",
+            "command": "mkdir -p ${fileDirname}/build && g++ -fsanitize=address,undefined -DDBG -std=gnu++17 -Wall -Wpedantic -O0 -g '${file}' -o '${fileDirname}/build/${fileBasename}.out'",
             // },
             "problemMatcher": [],
             "group": {

@@ -38,7 +38,7 @@ vector<piece> input;
 unordered_map<ll, vector<edge>> g;
 unordered_map<ll, ll> ins;
 
-ll n, used;
+ll N, used;
 vector<ll> euler_res;
 
 void dfs_euler(ll v, ll ix) {
@@ -55,7 +55,7 @@ bool solve_for(ll dist) {
     g.clear();
     ins.clear();
 
-    for (ll i = 0; i < n; i++) {
+    for (ll i = 0; i < N; i++) {
         g[input[i].to_first].push_back({dist - input[i].to_end, i});
         ins[dist - input[i].to_end]++;
         if (!ins.count(input[i].to_first)) ins[input[i].to_first] = 0;
@@ -91,7 +91,7 @@ bool solve_for(ll dist) {
 
     reverse(euler_res.begin(), euler_res.end());
 
-    if (euler_res.size() < n) exit(-1);
+    if (euler_res.size() < N) exit(-1);
 
     cout << "Yes" << '\n';
     for (ll i: euler_res) {
@@ -103,12 +103,12 @@ bool solve_for(ll dist) {
 }
 
 void solve() {
-    cin >> n;
+    cin >> N;
 
-    input.resize(n);
+    input.resize(N);
 
     ll dist = -1, shit_data = 0;
-    for (ll i = 0; i < n; i++) {
+    for (ll i = 0; i < N; i++) {
         ll cnt, len;
         cin >> cnt >> len;
 
@@ -134,7 +134,7 @@ void solve() {
         return;
     }
 
-    if (n == 1) {
+    if (N == 1) {
         cout << "Yes" << '\n' << 1 << endl;
         return;
     }

@@ -45,7 +45,7 @@ using fl = long double;
 
 const ll inf = INT32_MAX;
 const fl eps = 1e-9;
-const fl max_abs_c = 1e9;
+const fl max_abs_c = 1e4;
 
 mt19937_64 mt(0xab0ba);
 
@@ -149,7 +149,7 @@ struct v2 {
     }
 
     bool between_weak(const v2& a, const v2& b) const {  // sus
-        if (a < b)
+        if (b > a)
             return between_weak(b, a);
         return a >= *this && *this >= b;  // || between_weak(b, a);
     }
@@ -310,16 +310,20 @@ struct polygon {
 
     bool has(const pt& p) const {
         do {
-            ray r(p, pt::random());
+            ray r(p, p.to(pt::random()));
 
             ll cnt = 0;
             for (ll i = 0; i < n; i++) {
+                if (segment(pts[i], pts[(i+1) % n]).has(p)) return true;
+
                 if (r.has(pts[i])) {
-                    continue;
+                    goto next;
                 }
+
                 cnt += r.intersects(segment(pts[i], pts[(i + 1) % n]));
             }
             return cnt % 2 == 1;
+            next:;
         } while (true);
     }
 };
@@ -365,7 +369,7 @@ struct convex_poly : polygon {
             return false;
         }
 
-        ll lo = 1, hi = n;
+        ll lo = 1, hi = n - 1;
 
         while (hi - lo > 1) {
             ll m = (lo + hi) / 2;
@@ -380,7 +384,6 @@ struct convex_poly : polygon {
         return triangle{pts[0], pts[lo], pts[hi]}.has(p);
     }
 };
-
 
 struct circle {
     pt c;
@@ -528,6 +531,8 @@ void solve() {
     for (auto &i : pts) {
         cin >> i;
     }
+
+    reverse(pts.begin(), pts.end());
     
     polygon p(pts);
     

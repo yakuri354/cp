@@ -184,6 +184,16 @@ struct line {
     line(pt p1, pt p2) : a(p1.y - p2.y), b(p2.x - p1.x), c(-(p1.x * a + p1.y * b)) {
     }
 
+    line(fl a, fl b, fl c) : a(a), b(b), c(c) {}
+
+    // line(pt p1, pt p2) { // untested
+    //     v2 pq = p1.to(p2);
+    //     a = pq.y;
+    //     b = pq.x;
+    //     c = pq.cross(p1);
+    // }
+
+
     v2 norm() const {
         return {a, b};
     }
@@ -438,7 +448,8 @@ fl dist<pt, circle>(const pt &p, const circle &c) {
 
 template<>
 fl dist<line, pt>(const line &l, const pt &p) {
-    return dist(l.proj(p), p);
+    // return dist(l.proj(p), p);
+    return (p.x * l.a + p.y * l.b + l.c) / v2{l.a, l.b}.len();
 }
 
 template<>

@@ -1,0 +1,1 @@
+{"name":"Local: b3","url":"/Users/lain/Source/cp/sbor/roi24/d2/b3.cpp","tests":[{"id":1708334427034,"input":"5 14 5 5\n0 5 9\n5 12 10\n0 7 7\n7 12 8\n4 7 10\n0 12\n0 5\n0 7\n7 12\n0 13","output":"15\n9\n7\n8\n-1"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/Users/lain/Source/cp/sbor/roi24/d2/b3.cpp","group":"local","local":true}

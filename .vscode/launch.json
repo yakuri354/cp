@@ -11,7 +11,10 @@
             "program": "${fileDirname}/build/${fileBasename}.out",
             "args": [],
             "cwd": "${fileDirname}",
-            "preLaunchTask": "Build current file"
+            "preLaunchTask": "Build current file",
+            "env": {
+                "ASAN_OPTIONS": "detect_leaks=0"
+            }
         },
         {
             "type": "lldb",
